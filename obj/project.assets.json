@@ -8165,11 +8165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cloud\\Universidad\\Curso2022_23\\IPO2\\proyecto_individual\\pokemon\\pokemon.csproj",
+      "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\pokemon.csproj",
       "projectName": "pokemon",
-      "projectPath": "C:\\Cloud\\Universidad\\Curso2022_23\\IPO2\\proyecto_individual\\pokemon\\pokemon.csproj",
+      "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\pokemon.csproj",
       "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-      "outputPath": "C:\\Cloud\\Universidad\\Curso2022_23\\IPO2\\proyecto_individual\\pokemon\\obj\\",
+      "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

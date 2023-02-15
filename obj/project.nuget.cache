@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tYtenqLJzIjj3CJ0IU7/BDvGRSHBo/HMcd+JhK1i6arzfGuRLB2y0d0Ox9mFVjb/xscqBWwi6OMVl5k5MAXWvA==",
+  "dgSpecHash": "Vr2KyTq9rjNrG7v3E5Y+kke+Wu9DGSOhAR7+W5+Lt8w+n4yRXodPuYh5Ik4fbmpCe5OyJL6flDt3G7PCM+jxKw==",
   "success": true,
-  "projectFilePath": "C:\\Cloud\\Universidad\\Curso2022_23\\IPO2\\proyecto_individual\\pokemon\\pokemon.csproj",
+  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\pokemon.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",

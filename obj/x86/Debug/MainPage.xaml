@@ -6,14 +6,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="558" Height="481">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="541" Height="512">
 
     <Grid Margin="10,2,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="71*"/>
             <ColumnDefinition Width="399*"/>
             <ColumnDefinition Width="78*"/>
-            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="80*"/>
@@ -21,16 +21,18 @@
             <RowDefinition Height="262*"/>
             <RowDefinition Height="60*"/>
         </Grid.RowDefinitions>
-        <ProgressBar x:ConnectionId='2' x:Name="pbHealth" Grid.Column="1" HorizontalAlignment="Center" Height="46" Width="379" Background="#33F91B1B" Foreground="Red"/>
-        <ProgressBar x:ConnectionId='3' x:Name="pbEnergy" Grid.Column="1" HorizontalAlignment="Center" Height="46" Width="379" Margin="0,21,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#33F07723"/>
-        <Image x:ConnectionId='4' x:Name="imgHealth" HorizontalAlignment="Center" Height="49" VerticalAlignment="Center" Width="50" Source="/Assets/health.png"/>
-        <Image x:ConnectionId='5' x:Name="imgEnergy" HorizontalAlignment="Center" Height="49" Grid.Row="1" VerticalAlignment="Top" Width="50" Source="Assets\energy.png" Margin="0,20,0,0" />
-        <Button x:ConnectionId='6' x:Name="btnHealth" Grid.Column="2" HorizontalAlignment="Center"                         Background="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="57" Width="56" FocusVisualSecondaryBrush="{x:Null}">
+        <Image x:ConnectionId='2' x:Name="imFondo" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.RowSpan="4" Grid.ColumnSpan="4" Source="/Assets/fondo.jpg" Stretch="UniformToFill" Margin="-9,0,0,0" Width="721"/>
+        <ProgressBar x:ConnectionId='3' x:Name="pbHealth" Grid.Column="1" HorizontalAlignment="Center" Height="46" Width="379" Background="#FFE04141" Foreground="Red"/>
+        <ProgressBar x:ConnectionId='4' x:Name="pbEnergy" Grid.Column="1" HorizontalAlignment="Center" Height="46" Width="379" Margin="0,21,0,0" Grid.Row="1" VerticalAlignment="Top" Background="#FFEEA853" Foreground="#FFFF8B00"/>
+        <Image x:ConnectionId='5' x:Name="imgHealth" HorizontalAlignment="Center" Height="49" VerticalAlignment="Center" Width="50" Source="/Assets/health.png"/>
+        <Image x:ConnectionId='6' x:Name="imgEnergy" HorizontalAlignment="Center" Height="49" Grid.Row="1" VerticalAlignment="Top" Width="50" Source="Assets\energy.png" Margin="0,20,0,0" />
+        <Button x:ConnectionId='7' x:Name="btnHealth" Grid.Column="2" HorizontalAlignment="Center"                         Background="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="57" Width="56" FocusVisualSecondaryBrush="{x:Null}">
             <Image Source="Assets\pocHealth.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" RenderTransformOrigin="0.469,0.707" Margin="-7,-9,-8,-12"/>
         </Button>
-        <Button x:ConnectionId='7' x:Name="btnEnergy" Grid.Column="2" Grid.Row="1"                         Background="{x:Null}" Margin="0,12,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Center" Height="62" Width="59">
+        <Button x:ConnectionId='8' x:Name="btnEnergy" Grid.Column="2" Grid.Row="1"                         Background="{x:Null}" Margin="0,12,0,0" VerticalAlignment="Top" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Center" Height="62" Width="59">
             <Image Source="Assets\pocEnergy.png" Height="49" Width="39" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}"></Image>
         </Button>
+
     </Grid>
 </Page>
 

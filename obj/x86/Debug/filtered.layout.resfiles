@@ -1,4 +1,6 @@
+WinMetadata\Windows.winmd
 Assets\energy.png
+Assets\fondo.jpg
 Assets\health.png
 Assets\LockScreenLogo.scale-200.png
 Assets\pocEnergy.png
@@ -13,4 +15,3 @@ App.xbf
 MainPage.xbf
 pokemon.xr.xml
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd

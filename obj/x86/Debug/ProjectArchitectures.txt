@@ -1,1 +1,1 @@
-C:\Cloud\Universidad\Curso2022_23\IPO2\proyecto_individual\pokemon\pokemon.csproj;x86
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\pokemon.csproj;x86
