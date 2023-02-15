@@ -22,35 +22,63 @@ namespace pokemon
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        DispatcherTimer dtTime;
+        DispatcherTimer tHealth;
+        DispatcherTimer tEnergy;
+
 
         public MainPage()
         {
             this.InitializeComponent();
         }
 
+        
+
         private void increaseHealth(object sender, object e)
         {
             this.pbHealth.Value += 0.4;
             if (pbHealth.Value >= 100)
             {
-                this.dtTime.Stop();
+                this.tHealth.Stop();
                 this.imgHealth.Opacity = 1;
+            }
+        }
+
+        private void increaseEnergy(object sender, object e)
+        {
+            this.pbEnergy.Value += 0.4;
+
+            if (this.imgEnergy.Opacity == 1)
+            {
+                this.imgEnergy.Opacity = 0.5;
+            }
+            else
+            {
+                this.imgEnergy.Opacity = 1;
+            }
+            
+            if (pbEnergy.Value >= 100)
+            {
+                this.tEnergy.Stop();
+                this.imgEnergy.Opacity = 1;
             }
         }
 
         private void btnHealth_Click(object sender, RoutedEventArgs e)
         {
-            dtTime = new DispatcherTimer();
-            dtTime.Interval = TimeSpan.FromMilliseconds(100);
-            dtTime.Tick += increaseHealth;
-            dtTime.Start();
+            tHealth = new DispatcherTimer();
+            tHealth.Interval = TimeSpan.FromMilliseconds(100);
+            tHealth.Tick += increaseHealth;
+            tHealth.Start();
             this.imgHealth.Opacity = 0.5;
         }
 
         private void btnEnergy_Click(object sender, RoutedEventArgs e)
         {
-
+            tEnergy = new DispatcherTimer();
+            tEnergy.Interval = TimeSpan.FromMilliseconds(100);
+            tEnergy.Tick += increaseEnergy;
+            tEnergy.Start();
+            this.imgEnergy.Opacity = 0.5;
         }
 
         
