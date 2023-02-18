@@ -1,0 +1,14 @@
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\bin\Debug\ImPokemon.exe.config
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\bin\Debug\ImPokemon.exe
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\bin\Debug\ImPokemon.pdb
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\MainWindow.g.cs
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\App.g.cs
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon_MarkupCompile.cache
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon_MarkupCompile.lref
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\MainWindow.baml
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.g.resources
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.Properties.Resources.resources
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.csproj.GenerateResource.cache
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.csproj.CoreCompileInputs.cache
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.exe
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Debug\ImPokemon.pdb

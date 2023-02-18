@@ -1,0 +1,192 @@
+﻿<Window x:Class="ImPokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImPokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.493,0.574">
+        <Path x:Name="brazo_izq" Fill="#FFF8A457" HorizontalAlignment="Left" Stroke="#FF6A4219" VerticalAlignment="Top" StrokeThickness="1.3" Data="M136.67461,0.65000763 C168.94284,0.66859283 195.08507,29.082716 195.0649,64.114733 195.05436,82.388688 183.40977,104.31742 176.53037,110.42192 176.30651,110.62057 176.10883,110.84667 175.89591,111.05653 L175.48985,111.43785 C175.48985,111.43785 175.97751,111.82508 176.30469,112.01154 178.72246,113.38945 209.88826,132.7158 213.77768,133.47709 220.24843,134.74364 232.64853,139.10636 240.44934,139.11534 240.8681,139.11582 243.82645,136.42861 246.94761,134.38076 249.9674,132.39942 253.19843,130.43155 254.60195,130.35839 256.35349,130.26708 250.06158,138.66165 252.16876,138.55517 260.94716,138.11158 262.14909,138.7295 263.15486,139.42797 263.2942,139.52476 255.98989,145.48734&#xD;&#xA;256.08028,145.60923 257.00304,146.85373 260.2557,149.49783 260.09942,149.52455 259.27543,149.6654 255.41927,149.41964 251.87051,150.90851 246.23852,153.2714 240.2432,157.72457 239.74712,157.75113 239.22307,157.7792 232.49103,157.55835 230.62703,157.55737 227.38886,157.55566 223.78891,157.41324 219.34131,157.40812 210.08235,157.39746 202.6019,157.60274 196.86885,157.2083 L196.14586,157.15055 196.2414,157.56476 C198.18965,166.41723 199.23906,175.8554 199.23342,185.6516 199.20424,236.31478 171.97839,257.8698 137.17539,257.84973 102.37236,257.8297 73.171373,236.24219 73.200555,185.57901 73.206193,175.7828 74.266473,166.34586 76.224924,157.49563 L76.30916,157.13236 76.228517,157.13871 C70.495019,157.52655 63.014795,157.31265 53.755834,157.31265 49.308225,157.31265 45.708116,157.45092 42.469934,157.4489 40.605939,157.44774 33.87364,157.66083 33.34963,157.63216 32.540998,157.58792 31.208822,157.58434 30.213941,157.58367 28.571516,157.58258 26.538579,157.48568 23.969886,157.48397 21.376981,157.48223 8.134005,157.86994 6.0027198,157.5031 5.8464732,157.4762 5.2185635,157.3665 5.4689312,156.98486 5.6755566,156.6699 9.7156148,148.16852&#xD;&#xA;10.639799,146.92509 10.730319,146.8033 0.51193752,138.31076 0.65141501,138.21414 2.2933168,137.07669 7.6731138,137.88403 11.549093,138.05275 12.302721,138.08556 11.925361,134.35326 12.777468,134.40653 13.384123,134.44446 15.195402,138.26407 15.853952,138.30829 16.972267,138.38338 18.166599,138.46508 19.440975,138.5451 20.102018,138.5866 21.472715,135.13601 22.177398,135.17544 22.786085,135.2095 22.723144,138.73398 23.365175,138.76488 26.141492,138.89848&#xD;&#xA;29.232948,138.99553 32.66887,138.99553 40.46969,138.99553 52.874826,134.64709 59.347032,133.38799 63.237337,132.63118 94.425394,113.34069 96.844758,111.96557 97.281297,111.71745 97.638437,111.61031 97.924402,111.62904 L97.996545,111.64245 96.315286,109.33676 C90.011105,103.10903 73.373914,89.597317 73.887979,86.129349 74.002643,85.355806 74.453199,78.601157 76.52894,70.234655 78.383315,62.760392 78.718804,55.529997 80.123646,49.820077 82.307096,40.945537 86.068486,34.601073 86.181594,34.377057 95.936735,15.056392 114.66536,0.63733115 136.67461,0.65000763 z" Height="258.5" Margin="262.257,78.361,0,0" RenderTransformOrigin="0.382959068137154,0.52288110229837" Stretch="Fill" Width="263.835">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.033"/>
+                    <TranslateTransform X="0.00039940039620489642" Y="-0.0060795511479625475"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M271,249.5" Fill="#FFF8A457" HorizontalAlignment="Left" Height="1" Margin="271,249.5,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M267.54167,249.35417" Fill="#FFF8A457" HorizontalAlignment="Left" Height="1" Margin="267.542,249.354,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Canvas x:Name="ojo_izq" Margin="347.918,122.053,426.749,265.947">
+            <Path Data="M16.833,15.5 C16.833,23.784271 13.176733,30.5 8.6665,30.5 5.9918269,30.5 2.3076976,28.138236 0.72107369,24.488165 -0.011253501,22.803427 0.31808008,20.712625 0.31315466,18.716121 0.31058065,17.672756 0.40625637,16.228955 0.40625637,15.125 0.40625637,6.8407288 4.1562686,0.125 8.666502,0.125 13.176735,0.125 16.833,7.2157288 16.833,15.5 z" Fill="#FF0B1032" HorizontalAlignment="Left" Height="31.375" Canvas.Left="-7.016" Stretch="Fill" Stroke="#FF4F3E20" Canvas.Top="0.065" VerticalAlignment="Top" Width="17.588"/>
+            <Path Data="M9.5064563,5.0251048 C9.0655306,5.725356 8.624044,6.162583 8.3032199,6.5111608 7.7550908,7.1067071 6.1505562,8.0875098 4.8220256,8.0875098 4.1760772,8.0875098 3.518068,8.000336 2.9054012,7.7844116 0.8989228,7.0772608 -1.2850631,5.0640516 -0.61571002,5.0193118 0.47264641,4.9465658 3.7903997,5.068503 5.5002272,5.0604753 5.8711728,5.0587337 6.6623559,5.0432161 7.1431603,4.9278313 7.58667,4.8213966 8.1669911,4.4687783 8.6164129,4.2519327 9.6306153,3.7625809 10.069055,3.0273151&#xD;&#xA;10.463081,2.9274755 10.919857,2.811736 10.544894,3.2787026 10.351954,3.6558669 10.293349,3.7704302 9.6940042,4.7272527 9.5064563,5.0251048 z" Fill="#FF15475F" HorizontalAlignment="Left" Height="6.247" Stretch="Fill" VerticalAlignment="Top" Width="12.646" Canvas.Left="-4.331" Canvas.Top="24.225"/>
+            <Path Data="M10.334,8.25 C10.334,12.530207 8.0700841,16 5.3545,16 2.6389159,16 0.5,12.530207 0.5,8.25 0.5,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 10.334,3.9697932 10.334,8.25 z" Fill="White" HorizontalAlignment="Left" Height="16.817" Stretch="Fill" Stroke="#FF4F3E20" VerticalAlignment="Top" Width="8.084" Canvas.Left="0.609" Canvas.Top="1.039" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-8.77"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Canvas>
+        <Ellipse x:Name="brilloCeja2" Fill="#FFC97E39" HorizontalAlignment="Left" Height="15.729" Margin="428.342,120.944,0,0" Stroke="#FFEA8D31" StrokeThickness="0.3" VerticalAlignment="Top" Width="9.168" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="28.232"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Grid x:Name="ojo_der" Margin="432.162,122.678,342.39,265.878">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Path Data="M16.708009,15.5 C16.708009,17.993137 16.814289,24.40671 16.228376,26.475425 15.643363,28.540962 14.675738,29.104262 12.878113,29.104262 10.40951,29.104262 2.9253048,30.790309 1.1796406,28.016649 1.0339186,27.785114 0.90580964,27.863134 0.78356802,27.581914 0.051240829,25.897176 0.31808008,23.806375 0.31315466,21.809871 0.31058065,20.766506 0.40625432,16.603955 0.40625432,15.5 0.40625432,7.2157288 4.1562666,0.5 8.6665,0.5 13.176733,0.5 16.708009,7.2157288&#xD;&#xA;16.708009,15.5 z" Fill="#FF0B1032" HorizontalAlignment="Left" Height="30.111" Stretch="Fill" Stroke="#FF4F3E20" VerticalAlignment="Top" Width="17.448" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-8.452"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M8.0860589,5.7812942 C8.0860589,10.061501 8.0700841,16 5.3545,16 2.6389159,16 1.2170847,12.530207 1.2170847,8.25 1.2170847,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 8.0860589,1.5010874 8.0860589,5.7812942 z" Fill="White" HorizontalAlignment="Left" Height="17.317" Stretch="Fill" Stroke="#FF4F3E20" VerticalAlignment="Top" Width="7.938" Margin="2.327,0.597,0,0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="2.201"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M11.995997,5.878134 C11.555071,6.5783852 11.895895,6.1107945 11.575071,6.4593723 11.280273,6.7796726 10.257613,7.1015394 9.3076764,7.3306387 8.4913597,7.5275123 7.6176466,7.7249122 7.0036342,7.7249122 6.6704899,7.7249122 5.6962865,7.924406 4.3278801,8.1214233 3.0430214,8.3064117 1.791993,8.4587892 1.4953056,8.3542266 0.85554752,8.1287542 0.31815322,8.0388051 -0.095417282,7.7137033 -0.9789313,7.0191855 -1.2973367,6.0512568 -0.84140433,6.0207822 0.2469521,5.9480362 9.4243108,4.8176075&#xD;&#xA;11.155629,4.7488681 11.719331,4.7264872 12.023814,4.5783389 12.228347,4.6938864 12.390725,4.7856192 12.279782,4.9904826 12.236149,5.1500023 12.179484,5.3571668 12.064447,5.7694262 11.995997,5.878134 z" Fill="#FF15475F" HorizontalAlignment="Left" Height="4.511" Stretch="Fill" VerticalAlignment="Top" Width="14.793" Margin="2.749,25.075,-0.094,0" Grid.RowSpan="2"/>
+        </Grid>
+        <Path x:Name="boca" Data="M341.03721,161.00133 L357.24757,174.04727 383.33559,179.6658 400.00421,179.49881 418.00598,176.33232 434.34092,171.6659 446.73047,168.97582" HorizontalAlignment="Left" Height="18.332" Margin="340.619,161.877,0,0" Stretch="Fill" VerticalAlignment="Top" Width="105.114" Stroke="#FF6A4219" StrokeThickness="2" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-4.888"/>
+                    <TranslateTransform X="0.058380222044746688" Y="-0.96419666365081191"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="brilloCabeza" Data="M353.40988,104.40482 L369.1875,94.1245 382.81159,87.374494 389.99949,81.999495 391.33388,80.658334 385.56348,81.654667 380.46425,83.296081 375.87039,85.049838 372.26528,86.959622 369.88173,88.377492 367.64716,89.766425 364.87629,91.936634 363.20781,93.354504 361.30097,95.003863 359.45372,96.768966 357.4873,98.881302 355.64006,101.13832 354.00137,103.27959 z" HorizontalAlignment="Left" Height="22.906" Margin="355.005,80.252,0,0" Stretch="Fill" StrokeThickness="0.2" VerticalAlignment="Top" Width="34.965" Fill="#FFF1EBA7" Stroke="Black"/>
+        <Path x:Name="ceja1" Data="M359.25,113.25 L363,118.66667 362.33333,122.66608 363.83333,122.4991 364.91709,117.58291 361.25003,112.33342 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="11.334" Margin="356.957,122.053,0,0" Stretch="Fill" VerticalAlignment="Top" Width="6.667" Stroke="Black" StrokeThickness="0.5"/>
+        <Path x:Name="ceja2" Data="M359.25,113.25 L363,118.66667 362.33333,122.66608 363.83333,122.4991 364.91709,117.58291 361.25003,112.33342 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="11.334" Margin="428.165,119.083,0,0" Stretch="Fill" VerticalAlignment="Top" Width="6.667" Stroke="Black" StrokeThickness="0.5" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="16.952"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Ellipse x:Name="brillo_cara" Fill="#FFF5EEA0" HorizontalAlignment="Left" Height="8.018" Margin="374.233,151.592,0,0" Stroke="#FFEA8D31" StrokeThickness="0.3" VerticalAlignment="Top" Width="5.552" RenderTransformOrigin="0.5,0.5" Opacity="0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="28.232"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="narizIzq1" Fill="#FFDC6400" HorizontalAlignment="Left" Height="7.756" Margin="371.692,161.504,0,0" StrokeThickness="0.3" VerticalAlignment="Top" Width="6.572" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-50.364"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Path x:Name="narizIzq" Data="M369.875,163.75 L372.225,166.35 373.85001,165.97501 371.975,162.725 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="3.925" Margin="372.625,163.058,0,0" Stretch="Fill" StrokeThickness="0.3" VerticalAlignment="Top" Width="4.275" Stroke="Black"/>
+        <Path Data="M369.875,163.75 L372.225,166.35 373.85001,165.97501 371.975,162.725 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="3.925" Margin="372.625,163.058,0,0" Stretch="Fill" StrokeThickness="0.3" VerticalAlignment="Top" Width="4.275" Stroke="Black"/>
+        <Ellipse x:Name="narizDer1" Fill="#FFDC6400" HorizontalAlignment="Left" Height="7.756" Margin="411.692,161.379,0,0" StrokeThickness="0.3" VerticalAlignment="Top" Width="6.572" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="50.364"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Path x:Name="narizDer" Data="M369.875,163.75 L372.225,166.35 373.85001,165.97501 371.975,162.725 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="3.925" Margin="413.125,163.808,0,0" Stretch="Fill" StrokeThickness="0.3" VerticalAlignment="Top" Width="4.275" Stroke="Black" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Ellipse x:Name="barriga" HorizontalAlignment="Left" Height="143.5" Margin="335.418,191,0,0" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="101.582" Fill="#FFF9ED7A"/>
+        <Path x:Name="margenIzq" Data="M338.125,235.375 L344.72507,207.55833 341.91196,223.2875 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="29.117" Margin="338.25,207.558,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="1.3" VerticalAlignment="Top" Width="7.901"/>
+        <Path x:Name="naranja" Data="M272.43103,221.72344 L312.66632,217.5 322.33258,212.5 333.8329,206.20552 344.74993,199.90691 355.24998,193.89382 360.41666,190.99932 361.1147,190.96412 355.71845,185.41586 439.71342,185.49456 437.25712,188.24874 434.63744,190.45278 435.77792,191.24299 437.03135,191.95592 438.97959,193.14925 444.04886,196.10237 432.4645,217.84954 506.92921,228.77564 498.64987,233.71448 479.49718,233.48309 462.67804,233.43231 456.19295,233.14041 455.58116,234.56267 455.90948,236.54083&#xD;&#xA;432.27184,239.24476 429.49739,229.34852 425.01094,219.39248 421.58492,213.70332 417.26161,207.93515 413.10144,203.51024 408.69656,199.71747 403.55753,196.39879 399.43815,194.62093 395.93055,193.27765 391.56646,192.17143 387.20236,191.69733 383.73556,191.61831 380.06482,191.89487 375.98622,192.64552 372.5602,193.67273 369.01183,195.09502 365.78974,196.71485 362.4045,198.84829 358.04041,202.20648 354.69596,205.32761 350.04636,210.81923 344.66261,219.15544&#xD;&#xA;342.6641,223.46182 345.19283,209.95006 345.51912,207.26351 344.33633,207.30302 340.38009,223.58034 338.0145,233.14129 329.42981,233.45664 316.35716,233.33884 293.0276,233.65522 270.14668,233.57588 274.95941,224.29148 274.91862,223.58034 273.2464,222.27657 z" HorizontalAlignment="Left" Height="56.771" Margin="269.125,184.417,0,0" Stretch="Fill" StrokeThickness="2" VerticalAlignment="Top" Width="241.894" Fill="#FFF59135" Opacity="0.8"/>
+        <Path x:Name="margenIzq_Copy" Data="M338.125,235.375 L344.72507,207.55833 341.91196,223.2875 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="6.687" Margin="359.136,186.084,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="1.3" VerticalAlignment="Top" Width="2.317" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="123.976"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="derechaBordeMano" Data="M335.37651,235.63234 L357.23549,208.7209 341.91196,223.2875 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="3.806" Margin="502.238,216.479,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="1.3" VerticalAlignment="Top" Width="1.3" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="221.962"/>
+                    <TranslateTransform X="-0.2518343115708106" Y="0.053222448828005753"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="derechaBordeBrazo" Data="M335.37651,235.63234 L357.23549,208.7209 341.91196,223.2875 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="20.1" Margin="449.384,221.926,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="1.3" VerticalAlignment="Top" Width="1.3" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="290.595"/>
+                    <TranslateTransform X="-0.2518343115708106" Y="0.053222448828005753"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="luzBrazoDerecho" Data="M480.78857,212.37366 L478.15472,212.62744 473.02645,211.47932 463.35318,206.47766 453.54088,200.47719 446.62628,194.14237 450.12691,196.24083 456.06813,199.56254 460.68466,202.10273 464.17713,204.05667 468.35211,206.32335 472.76778,208.9024 474.77521,209.72349 481.36045,211.4068 483.16768,211.87653" Fill="#FFF1E27F" HorizontalAlignment="Left" Height="19.729" Margin="446.625,195.529,0,0" Stretch="Fill" StrokeThickness="1.3" VerticalAlignment="Top" Width="37.91" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.048"/>
+                    <TranslateTransform X="-0.00033375840268945467" Y="-0.00078944719538220909"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="TercerDedoDerecho" Data="M499.27941,225.91338 L503.125,229.1875 498.96898,231.40594 498.53125,230.53099 501.90641,228.96843 498.51063,226.69298 z" Fill="#FF6A4219" HorizontalAlignment="Left" Height="6.159" Margin="497.927,225.414,0,0" Stretch="Fill" StrokeThickness="2" VerticalAlignment="Top" Width="5.115"/>
+        <Path x:Name="derechaBordeManoSombra" Data="M335.37651,235.63234 L357.23549,208.7209 341.91196,223.2875 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="3.807" Margin="513.77,215.135,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="1.3" VerticalAlignment="Top" Width="1.299" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="200.885"/>
+                    <TranslateTransform X="-0.2518343115708106" Y="0.053222448828005753"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+    </Grid>
+</Window>
