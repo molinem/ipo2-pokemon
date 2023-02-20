@@ -12,3 +12,4 @@ C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Release\ImPok
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Release\ImPokemonCharmander.csproj.CoreCompileInputs.cache
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Release\ImPokemon.exe
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Release\ImPokemon.pdb
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\ImCharmander\obj\Release\ImPokemonCharmander.csprojAssemblyReference.cache
