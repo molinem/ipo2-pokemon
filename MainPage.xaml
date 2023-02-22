@@ -223,8 +223,8 @@
     <Grid Margin="10,2,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="205*"/>
-            <ColumnDefinition Width="198*"/>
-            <ColumnDefinition Width="660*"/>
+            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="693*"/>
             <ColumnDefinition Width="205*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
@@ -238,14 +238,14 @@
         </Grid.RowDefinitions>
 
         <Image x:Name="imFondo" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.RowSpan="6" Grid.ColumnSpan="5" Source="/Assets/background.jpg" Stretch="Fill" Margin="-10,0,0,0" Width="1280" RenderTransformOrigin="0.5,0.5" Height="798"/>
-        <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="258" Stroke="Black" VerticalAlignment="Top" Width="850" FocusVisualSecondaryBrush="#99000000" StrokeThickness="10" RenderTransformOrigin="0.5,0.5" RadiusX="10" RadiusY="10" Fill="White" Margin="0,55,0,0" Grid.RowSpan="5" Grid.ColumnSpan="2">
+        <Rectangle HorizontalAlignment="Left" Height="258" Stroke="Black" VerticalAlignment="Top" Width="850" FocusVisualSecondaryBrush="White" StrokeThickness="10" RenderTransformOrigin="0.5,0.5" RadiusX="10" RadiusY="10" Fill="White" Margin="202,55,0,0" Grid.RowSpan="5" Grid.ColumnSpan="3">
             <Rectangle.RenderTransform>
                 <CompositeTransform TranslateX="0" TranslateY="0"/>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ProgressBar x:Name="pgSalud" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#4FE71B" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="1" Margin="24,0,0,0" />
-        <ProgressBar x:Name="pgEnergia" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FFF9AA56" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Foreground="#FFF28109" Grid.Row="2" Margin="24,0,0,0" />
-        <ProgressBar x:Name="pgMana" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FF65D0F1" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="3" Foreground="#FF0B98C3" Margin="24,0,0,0" />
+        <ProgressBar x:Name="pgSalud" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#4FE71B" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="1" Margin="22,0,0,0" />
+        <ProgressBar x:Name="pgEnergia" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FFF9AA56" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Foreground="#FFF28109" Grid.Row="2" Margin="22,16,0,0" VerticalAlignment="Top" />
+        <ProgressBar x:Name="pgMana" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FF65D0F1" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="3" Foreground="#FF0B98C3" Margin="22,0,0,0" />
 
 
 
@@ -538,9 +538,24 @@
                 </Rectangle.RenderTransform>
             </Rectangle>
         </Grid>
-        <Image x:Name="imgSalud" Grid.Column="1" HorizontalAlignment="Left" Height="53" Margin="99,0,0,0" VerticalAlignment="Center" Width="96" Source="/Assets/health.png" Grid.Row="1"/>
-        <Image x:Name="imgEnergia" Grid.Column="1" HorizontalAlignment="Left" Height="46" Margin="99,7,0,0" VerticalAlignment="Top" Width="96" Source="/Assets/energy.png" Grid.Row="2" Grid.RowSpan="2"/>
-        <Image x:Name="imgMana" Grid.Column="1" HorizontalAlignment="Left" Height="46" Margin="99,0,0,0" VerticalAlignment="Center" Width="96" Source="/Assets/mana.png" Grid.Row="3"/>
+        <Image x:Name="imgSalud" Grid.Column="1" HorizontalAlignment="Left" Height="69" VerticalAlignment="Center" Width="138" Source="/Assets/health.png" Grid.Row="1" Margin="22,0,0,0"/>
+        <Image x:Name="imgEnergia" Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="14,2,0,0" VerticalAlignment="Top" Width="155" Source="/Assets/energy.png" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image x:Name="imgMana" Grid.Column="1" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="128" Source="/Assets/mana.png" Grid.Row="3" Margin="27,9,0,0" Grid.RowSpan="2"/>
+        <Image x:Name="imgLevel" Grid.Column="2" HorizontalAlignment="Left" Height="60" Margin="470,74,0,0" VerticalAlignment="Top" Width="111" Source="/Assets/level.png"/>
+        <TextBox x:Name="txtNivel" Grid.Column="2" HorizontalAlignment="Left" Margin="582,72,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" FontSize="38" Width="88" FontWeight="Bold" BorderBrush="Transparent" SelectionHighlightColor="Transparent" IsReadOnly="True" PlaceholderText="" TextAlignment="Center" BorderThickness="0" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" AllowFocusOnInteraction="False" IsHitTestVisible="False" IsTabStop="False" SelectionHighlightColorWhenNotFocused="Transparent" FocusVisualSecondaryBrush="Transparent" PlaceholderForeground="Transparent" Background="Transparent" Foreground="Black"/>
+        <TextBox x:Name="txtNombrePokemon" Grid.Column="2" HorizontalAlignment="Left" Margin="22,72,0,0" Text="Nombre Pokemon" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" FontSize="38" Width="356" FontWeight="Bold" BorderBrush="Transparent" SelectionHighlightColor="Transparent" IsReadOnly="True" PlaceholderText="" TextAlignment="Left" BorderThickness="0" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" AllowFocusOnInteraction="False" IsHitTestVisible="False" IsTabStop="False" SelectionHighlightColorWhenNotFocused="Transparent" FocusVisualSecondaryBrush="Transparent" PlaceholderForeground="Transparent" Background="Transparent" Foreground="Black"/>
+
+        <Button x:Name="btnSalud" Grid.Column="2" Background="{x:Null}" Margin="548,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1">
+            <Image Source="Assets\pocSalud.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
+        </Button>
+
+        <Button x:Name="btnEnergia" Grid.Column="2" Background="{x:Null}" Margin="548,46,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Top">
+            <Image Source="Assets\pocEnergia.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
+        </Button>
+
+        <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="545,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="3">
+            <Image Source="Assets\pocmana.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
+        </Button>
     </Grid>
 
 </Page>

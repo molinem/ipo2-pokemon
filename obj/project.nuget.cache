@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wBcEQkP21o7idM18joh4KAUEqw1tCcALIJ09l/sFGn3vzuOLH++/oMIjEdVimisxquHmU5OJIPCvhpheErVvOw==",
+  "dgSpecHash": "vQ1LEWwtrEf7TP7hQgoOP71el5uY98nPNU0qcqknKWMM59ZSFsl6VRfmNqwQsSaTv3WYnyw4oQgaRsUw969P4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj",
+  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",

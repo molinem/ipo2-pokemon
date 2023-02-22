@@ -1,1 +1,1 @@
-C:\Users\Moli\Documents\Repositorios\CharmanderApp\CharmanderApp.csproj;x64
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\CharmanderApp.csproj;x64

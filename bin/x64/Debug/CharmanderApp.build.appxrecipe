@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>a804aae4-f79c-45d0-a03c-f0da71f54c55</PackageIdentityName>
     <PackageIdentityPublisher>CN=Moli</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Moli\Documents\Repositorios\CharmanderApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\CharmanderApp.exe">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.exe">
       <PackagePath>entrypoint\CharmanderApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,64 +34,76 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\background.jpg">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\energy.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\energy.png">
       <PackagePath>Assets\energy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\health.png">
-      <PackagePath>Assets\health.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocmana.png">
+      <PackagePath>Assets\pocmana.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\mana.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocenergia.png">
+      <PackagePath>Assets\pocenergia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\mana.png">
       <PackagePath>Assets\mana.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\health.png">
+      <PackagePath>Assets\health.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\level.png">
+      <PackagePath>Assets\level.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocsalud.png">
+      <PackagePath>Assets\pocsalud.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\CharmanderApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.xr.xml">
       <PackagePath>CharmanderApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\Core\CharmanderApp.exe">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\CharmanderApp.exe">
       <PackagePath>CharmanderApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

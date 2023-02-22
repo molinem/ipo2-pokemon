@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>a804aae4-f79c-45d0-a03c-f0da71f54c55</PackageIdentityName>
     <PackageIdentityPublisher>CN=Moli</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Moli\Documents\Repositorios\CharmanderApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>C6150D0CF43E86DAEA15F99CC11D3EADEDB2C4B68C69795D2045DE55C4C9D568</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a804aae4-f79c-45d0-a03c-f0da71f54c55_1.0.0.0_x64__srscwv5t0w6xc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a804aae4-f79c-45d0-a03c-f0da71f54c55_srscwv5t0w6xc!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-22T19:00:34.324</Modified>
+      <Modified>2023-02-22T20:48:42.854</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\CharmanderApp.exe">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.exe">
       <PackagePath>entrypoint\CharmanderApp.exe</PackagePath>
-      <Modified>2023-02-22T19:00:33.817</Modified>
+      <Modified>2023-02-22T20:48:42.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,75 +46,99 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T03:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\background.jpg">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2023-02-20T23:03:13.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\health.png">
-      <PackagePath>Assets\health.png</PackagePath>
-      <Modified>2023-02-22T18:59:32.780</Modified>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\energy.png">
+      <PackagePath>Assets\energy.png</PackagePath>
+      <Modified>2023-02-22T19:22:15.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocmana.png">
+      <PackagePath>Assets\pocmana.png</PackagePath>
+      <Modified>2023-02-22T20:44:34.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocenergia.png">
+      <PackagePath>Assets\pocenergia.png</PackagePath>
+      <Modified>2023-02-22T20:41:57.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\mana.png">
+      <PackagePath>Assets\mana.png</PackagePath>
+      <Modified>2023-02-22T19:17:47.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\health.png">
+      <PackagePath>Assets\health.png</PackagePath>
+      <Modified>2023-02-22T19:25:53.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\level.png">
+      <PackagePath>Assets\level.png</PackagePath>
+      <Modified>2023-02-22T19:43:19.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\pocsalud.png">
+      <PackagePath>Assets\pocsalud.png</PackagePath>
+      <Modified>2023-02-22T20:16:02.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-03-18T16:56:06.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.732</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.733</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-03-18T16:56:06.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2023-02-20T19:17:42.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\CharmanderApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.xr.xml">
       <PackagePath>CharmanderApp.xr.xml</PackagePath>
-      <Modified>2023-02-22T19:00:33.743</Modified>
+      <Modified>2023-02-22T20:43:42.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-22T17:54:49.623</Modified>
+      <Modified>2023-02-22T20:25:27.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-22T19:00:33.766</Modified>
+      <Modified>2023-02-22T20:48:42.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T01:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-22T18:59:58.697</Modified>
+      <Modified>2023-02-22T20:45:44.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\CharmanderApp\bin\x64\Debug\Core\CharmanderApp.exe">
+    <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\CharmanderApp.exe">
       <PackagePath>CharmanderApp.exe</PackagePath>
-      <Modified>2023-02-22T19:00:34.322</Modified>
+      <Modified>2023-02-22T20:48:42.851</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

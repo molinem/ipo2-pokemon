@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj": {}
+    "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj": {
+    "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj",
+        "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj",
         "projectName": "CharmanderApp",
-        "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj",
+        "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj",
         "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\obj\\",
+        "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
