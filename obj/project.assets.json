@@ -8165,11 +8165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\pokemon.csproj",
-      "projectName": "pokemon",
-      "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\pokemon.csproj",
+      "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj",
+      "projectName": "CharmanderApp",
+      "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\CharmanderApp.csproj",
       "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\obj\\",
+      "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\CharmanderApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

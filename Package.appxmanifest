@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="5f734294-2719-4718-a416-151661236afa"
+    Name="a804aae4-f79c-45d0-a03c-f0da71f54c55"
     Publisher="CN=Moli"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="5f734294-2719-4718-a416-151661236afa" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="a804aae4-f79c-45d0-a03c-f0da71f54c55" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>pokemon</DisplayName>
+    <DisplayName>CharmanderApp</DisplayName>
     <PublisherDisplayName>Moli</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="pokemon.App">
+      EntryPoint="CharmanderApp.App">
       <uap:VisualElements
-        DisplayName="pokemon"
+        DisplayName="CharmanderApp"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="pokemon"
+        Description="CharmanderApp"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

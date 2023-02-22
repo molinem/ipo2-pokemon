@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -15,72 +16,35 @@ using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
-namespace pokemon
+namespace CharmanderApp
 {
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        DispatcherTimer tHealth;
-        DispatcherTimer tEnergy;
-
-
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        
-
-        private void increaseHealth(object sender, object e)
-        {
-            this.pbHealth.Value += 0.4;
-            if (pbHealth.Value >= 100)
-            {
-                this.tHealth.Stop();
-                this.imgHealth.Opacity = 1;
-            }
-        }
-
-        private void increaseEnergy(object sender, object e)
-        {
-            this.pbEnergy.Value += 0.4;
-
-            if (this.imgEnergy.Opacity == 1)
-            {
-                this.imgEnergy.Opacity = 0.5;
-            }
-            else
-            {
-                this.imgEnergy.Opacity = 1;
-            }
             
-            if (pbEnergy.Value >= 100)
-            {
-                this.tEnergy.Stop();
-                this.imgEnergy.Opacity = 1;
-            }
         }
 
-        private void btnHealth_Click(object sender, RoutedEventArgs e)
+        public void centerPage() 
         {
-            tHealth = new DispatcherTimer();
-            tHealth.Interval = TimeSpan.FromMilliseconds(100);
-            tHealth.Tick += increaseHealth;
-            tHealth.Start();
-            this.imgHealth.Opacity = 0.5;
-        }
+            // Obtener el tamaño de la pantalla y la ventana
+            var bounds = Window.Current.Bounds;
+            var viewBounds = ApplicationView.GetForCurrentView().VisibleBounds;
 
-        private void btnEnergy_Click(object sender, RoutedEventArgs e)
-        {
-            tEnergy = new DispatcherTimer();
-            tEnergy.Interval = TimeSpan.FromMilliseconds(100);
-            tEnergy.Tick += increaseEnergy;
-            tEnergy.Start();
-            this.imgEnergy.Opacity = 0.5;
-        }
+            // Calcular la posición del centro
+            var centerX = viewBounds.Left + (viewBounds.Width - bounds.Width) / 2;
+            var centerY = viewBounds.Top + (viewBounds.Height - bounds.Height) / 2;
 
-        
+            // Establecer la posición del elemento para que se centre
+            this.HorizontalAlignment = HorizontalAlignment.Center;
+            this.VerticalAlignment = VerticalAlignment.Center;
+
+            // Establecer la posición de la página para que se centre
+            this.Margin = new Thickness(centerX, centerY, 0, 0);
+        }
     }
 }
