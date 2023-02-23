@@ -218,6 +218,78 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Storyboard x:Name="AnimacionFuego" x:Key="AnimacionFuegoKey">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="fuego" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF17E13"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.9000000" Value="#FFF1D30E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="fuego2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF1D30E">
+                    <EasingColorKeyFrame.EasingFunction>
+                        <BackEase EasingMode="EaseInOut"/>
+                    </EasingColorKeyFrame.EasingFunction>
+                </EasingColorKeyFrame>
+                <EasingColorKeyFrame KeyTime="00:00:00.9000000" Value="#FFF17E13"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="fuego" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF6A4219"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.9000000" Value="#FFDC0F05"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="fuego" Storyboard.TargetProperty="(Shape.StrokeThickness)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.9000000" Value="4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimation Duration="00:00:00.9000000" Storyboard.TargetName="path1" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" To="#FFDC0F05"/>
+            <ColorAnimation Duration="00:00:00.9000000" Storyboard.TargetName="path2" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" To="#FFDC0F05"/>
+            <ColorAnimation Duration="00:00:00.9000000" Storyboard.TargetName="path3" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" To="#FFDC0F05"/>
+            <ColorAnimation Duration="00:00:00.9000000" Storyboard.TargetName="path" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)" To="#FFDC0F05"/>
+        </Storyboard>
+        <Storyboard x:Name="AnimacionCuadro">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFAFCB65"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.5000000" Value="#FEBAFF00"/>
+                <EasingColorKeyFrame KeyTime="00:00:01" Value="#FFAFCB65"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="AnimacionNivel">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="imgLevel" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="111"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="94"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="111"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="AnimacionOjos">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="path4" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="20"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="10"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="path5" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="20"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="9"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="AnimacionSalud" Completed="AnimacionSalud_Completed" >
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud1" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud3" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud4" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud5" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
     </Page.Resources>
 
     <Grid Margin="10,2,0,0">
@@ -238,7 +310,7 @@
         </Grid.RowDefinitions>
 
         <Image x:Name="imFondo" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.RowSpan="6" Grid.ColumnSpan="5" Source="/Assets/background.jpg" Stretch="Fill" Margin="-10,0,0,0" Width="1280" RenderTransformOrigin="0.5,0.5" Height="798"/>
-        <Rectangle HorizontalAlignment="Left" Height="258" Stroke="Black" VerticalAlignment="Top" Width="850" FocusVisualSecondaryBrush="White" StrokeThickness="10" RenderTransformOrigin="0.5,0.5" RadiusX="10" RadiusY="10" Fill="White" Margin="202,55,0,0" Grid.RowSpan="5" Grid.ColumnSpan="3">
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="258" Stroke="#FFAFCB65" VerticalAlignment="Top" Width="850" FocusVisualSecondaryBrush="White" StrokeThickness="10" RenderTransformOrigin="0.5,0.5" RadiusX="60" RadiusY="64" Margin="5,55,0,0" Grid.RowSpan="5" Grid.ColumnSpan="2" Fill="White" Grid.Column="1">
             <Rectangle.RenderTransform>
                 <CompositeTransform TranslateX="0" TranslateY="0"/>
             </Rectangle.RenderTransform>
@@ -276,7 +348,7 @@
             <Canvas x:Name="ojo_izq" Margin="414,124,472,251" Grid.Column="1" Grid.Row="2">
                 <Path Data="M16.833,15.5 C16.833,23.784271 13.176733,30.5 8.6665,30.5 5.9918269,30.5 2.3076976,28.138236 0.72107369,24.488165 -0.011253501,22.803427 -0.18200323,20.712625 -0.18692865,18.716121 -0.18950266,17.672756 -0.093797175,16.228955 -0.093797175,15.125 -0.093797175,6.8407288 3.6562151,0.125 8.1664485,0.125 12.676681,0.125 16.833,7.2157288 16.833,15.5 z" Fill="#FF0B1032" HorizontalAlignment="Left" Height="31.375" Canvas.Left="-7.943" Stretch="Fill" Stroke="#FF4F3E20" Canvas.Top="0.065" VerticalAlignment="Top" Width="18.017"/>
                 <Path Data="M9.5064563,5.0251048 C9.0655306,5.725356 8.624044,6.162583 8.3032199,6.5111608 7.7550908,7.1067071 6.1505562,8.0875098 4.8220256,8.0875098 4.1760772,8.0875098 3.518068,8.000336 2.9054012,7.7844116 0.8989228,7.0772608 -1.2850631,5.0640516 -0.61571002,5.0193118 0.47264641,4.9465658 3.7903997,5.068503 5.5002272,5.0604753 5.8711728,5.0587337 6.6623559,5.0432161 7.1431603,4.9278313 7.58667,4.8213966 8.1669911,4.4687783 8.6164129,4.2519327 9.6306153,3.7625809 10.069055,3.0273151&#xA;10.463081,2.9274755 10.919857,2.811736 10.544894,3.2787026 10.351954,3.6558669 10.293349,3.7704302 9.6940042,4.7272527 9.5064563,5.0251048 z" Fill="#FF15475F" HorizontalAlignment="Left" Height="6.247" Stretch="Fill" VerticalAlignment="Top" Width="12.646" Canvas.Left="-4.912" Canvas.Top="24.225"/>
-                <Path Data="M10.334,8.25 C10.334,12.530207 8.0700841,16 5.3545,16 2.6389159,16 0.5,12.530207 0.5,8.25 0.5,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 10.334,3.9697932 10.334,8.25 z" Fill="White" Height="20" Stretch="Fill" Stroke="#FF4F3E20" Width="10" Canvas.Left="-4.322" Canvas.Top="1.179" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False">
+                <Path x:Name="path4" Data="M10.334,8.25 C10.334,12.530207 8.0700841,16 5.3545,16 2.6389159,16 0.5,12.530207 0.5,8.25 0.5,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 10.334,3.9697932 10.334,8.25 z" Fill="White" Height="20" Stretch="Fill" Stroke="#FF4F3E20" Width="10" Canvas.Left="-4.322" Canvas.Top="1.179" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False">
                     <Path.RenderTransform>
                         <CompositeTransform Rotation="0.789"/>
                     </Path.RenderTransform>
@@ -307,7 +379,7 @@
                         </TransformGroup>
                     </Path.RenderTransform>
                 </Path>
-                <Path Data="M8.0860589,5.7812942 C8.0860589,10.061501 8.0700841,16 5.3545,16 2.6389159,16 1.2170847,12.530207 1.2170847,8.25 1.2170847,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 8.0860589,1.5010874 8.0860589,5.7812942 z" Fill="White" HorizontalAlignment="Left" Height="20" Stretch="Fill" Stroke="#FF4F3E20" VerticalAlignment="Top" Width="11" Margin="2,2,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False">
+                <Path x:Name="path5" Data="M8.0860589,5.7812942 C8.0860589,10.061501 8.0700841,16 5.3545,16 2.6389159,16 1.2170847,12.530207 1.2170847,8.25 1.2170847,5.1572602 0.77928646,1.3107326 2.4414999,0.0675 3.0797119,-0.40984299 3.6256095,-0.30748706 4.3789999,-0.30748706 7.094584,-0.30748706 8.0860589,1.5010874 8.0860589,5.7812942 z" Fill="White" HorizontalAlignment="Left" Height="20" Stretch="Fill" Stroke="#FF4F3E20" VerticalAlignment="Top" Width="11" Margin="2,2,0,0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -481,11 +553,11 @@
             </Grid>
             <Grid x:Name="FuegoCola" Margin="585,224,270,128" Grid.Column="1" Grid.Row="2">
                 <Path x:Name="fuego" Data="M525.25,270.875 L520.85,267.85 524.475,261.22502 522.47498,250.97501 529.60002,239.72501 532.85006,231.22501 536.10005,238.85 537.35004,243.35 542.22505,234.60001 548.85006,230.60001 552.35004,223.47501 550.35003,219.72501 557.47505,220.85001 560.10004,225.72501 559.60004,232.975 559.72504,235.225 564.35004,229.725 568.22504,238.1 566.10003,250.85 565.10003,255.475 562.60003,260.225 554.72502,267.975 547.72501,270.1 539.1,272.1&#xA;533.22499,272.47501 z" Fill="#FFF17E13" HorizontalAlignment="Left" Height="54.05" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="48.675"/>
-                <Path Data="M535.875,245.6875 L534.975,248.662 534.72497,250.78786 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="6.399" Margin="16,23.588,0,0" Stretch="Fill" Stroke="#FF6A4219" VerticalAlignment="Top" Width="2.45"/>
-                <Path Data="M554.78699,243.66047 L555.34947,247.78697 552.8495,248.0375 550.6875,252 548.41201,253.1002 547.78753,255.53815" HorizontalAlignment="Left" Height="13.176" Margin="29.063,21.562,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="8.862"/>
-                <Path Data="M563.875,254.4375 L559.975,256.412 557.16246,257.85034 553.72421,259.78832 552.6616,261.28806" Fill="#FFF8A457" HorizontalAlignment="Left" Height="8.149" Margin="33.938,32.338,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="12.512"/>
-                <Path Data="M530.0625,253.4375 L531.7255,256.4745 533.22555,259.34948 534.91304,261.41198" Fill="#FFF8A457" HorizontalAlignment="Left" Height="9.275" Margin="11.337,31.338,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="6.15"/>
-                <Path Data="M530.46543,254.09352 L525.93365,255.42448 525.9839,257.44143 527.1088,258.66495 528.35869,259.39918 528.42119,260.42709 524.7965,261.50396 523.98379,262.67896 522.48413,263.36447 522.2754,263.68458 524.80981,265.05267 526.42155,265.48796 527.79635,265.66253 529.42112,265.98093 530.51859,266.10332 534.64297,265.86485 539.76333,264.94084 543.04407,264.27384 544.82505,263.89444 546.29361,263.43857 548.45758,261.72518 551.98832,259.03271 553.76179,256.29129 554.04708,255.1957&#xA;552.38693,255.85989 551.10673,256.37968 549.65088,256.97164 548.69797,257.41984 547.60437,257.90021 547.10638,258.34736 546.85436,258.69257 546.21196,258.24945 546.91889,257.36828 553.6858,254.64977 554.10458,254.39014 554.22954,253.53351 554.54203,251.59998 554.63535,250.66992 551.73074,253.0607 547.85625,254.26004 545.45032,254.60271 544.16924,255.26357 543.87795,255.22323 543.29435,255.14119 542.35695,255.01269 542.86081,253.42785 544.66915,252.74251&#xA;546.31346,250.49069 547.37285,250.4007 547.10733,248.72405 539.95105,251.39614 537.51387,254.82286 535.63912,256.16907 534.90094,257.34395 532.79965,258.77583 532.04975,258.09048 531.78025,257.83348 531.10847,257.00127 530.56948,256.19355 529.97581,255.31239 529.48144,254.49735 z" Fill="#FFF1D30E" HorizontalAlignment="Left" Height="29.587" Margin="2.322,22.712,0,0" Stretch="Fill" VerticalAlignment="Top" Width="43.161"/>
+                <Path x:Name="path" Data="M535.875,245.6875 L534.975,248.662 534.72497,250.78786 z" Fill="#FFF8A457" HorizontalAlignment="Left" Height="6.399" Margin="16,23.588,0,0" Stretch="Fill" Stroke="#FF6A4219" VerticalAlignment="Top" Width="2.45"/>
+                <Path x:Name="path3" Data="M554.78699,243.66047 L555.34947,247.78697 552.8495,248.0375 550.6875,252 548.41201,253.1002 547.78753,255.53815" HorizontalAlignment="Left" Height="13.176" Margin="29.063,21.562,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="8.862"/>
+                <Path x:Name="path2" Data="M563.875,254.4375 L559.975,256.412 557.16246,257.85034 553.72421,259.78832 552.6616,261.28806" Fill="#FFF8A457" HorizontalAlignment="Left" Height="8.149" Margin="33.938,32.338,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="12.512"/>
+                <Path x:Name="path1" Data="M530.0625,253.4375 L531.7255,256.4745 533.22555,259.34948 534.91304,261.41198" Fill="#FFF8A457" HorizontalAlignment="Left" Height="9.275" Margin="11.337,31.338,0,0" Stretch="Fill" Stroke="#FF6A4219" StrokeThickness="2" VerticalAlignment="Top" Width="6.15"/>
+                <Path x:Name="fuego2" Data="M530.46543,254.09352 L525.93365,255.42448 525.9839,257.44143 527.1088,258.66495 528.35869,259.39918 528.42119,260.42709 524.7965,261.50396 523.98379,262.67896 522.48413,263.36447 522.2754,263.68458 524.80981,265.05267 526.42155,265.48796 527.79635,265.66253 529.42112,265.98093 530.51859,266.10332 534.64297,265.86485 539.76333,264.94084 543.04407,264.27384 544.82505,263.89444 546.29361,263.43857 548.45758,261.72518 551.98832,259.03271 553.76179,256.29129 554.04708,255.1957&#xA;552.38693,255.85989 551.10673,256.37968 549.65088,256.97164 548.69797,257.41984 547.60437,257.90021 547.10638,258.34736 546.85436,258.69257 546.21196,258.24945 546.91889,257.36828 553.6858,254.64977 554.10458,254.39014 554.22954,253.53351 554.54203,251.59998 554.63535,250.66992 551.73074,253.0607 547.85625,254.26004 545.45032,254.60271 544.16924,255.26357 543.87795,255.22323 543.29435,255.14119 542.35695,255.01269 542.86081,253.42785 544.66915,252.74251&#xA;546.31346,250.49069 547.37285,250.4007 547.10733,248.72405 539.95105,251.39614 537.51387,254.82286 535.63912,256.16907 534.90094,257.34395 532.79965,258.77583 532.04975,258.09048 531.78025,257.83348 531.10847,257.00127 530.56948,256.19355 529.97581,255.31239 529.48144,254.49735 z" Fill="#FFF1D30E" HorizontalAlignment="Left" Height="29.587" Margin="2.322,22.712,0,0" Stretch="Fill" VerticalAlignment="Top" Width="43.161"/>
             </Grid>
             <Rectangle HorizontalAlignment="Left" Height="2" Margin="565,217,0,0" Stroke="#FF6A4219" VerticalAlignment="Top" Width="9.75" RenderTransformOrigin="0.5,0.5" Fill="#FF6A4219" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <Rectangle.RenderTransform>
@@ -538,14 +610,14 @@
                 </Rectangle.RenderTransform>
             </Rectangle>
         </Grid>
-        <Image x:Name="imgSalud" Grid.Column="1" HorizontalAlignment="Left" Height="69" VerticalAlignment="Center" Width="138" Source="/Assets/health.png" Grid.Row="1" Margin="22,0,0,0"/>
-        <Image x:Name="imgEnergia" Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="14,2,0,0" VerticalAlignment="Top" Width="155" Source="/Assets/energy.png" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
-        <Image x:Name="imgMana" Grid.Column="1" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="128" Source="/Assets/mana.png" Grid.Row="3" Margin="27,9,0,0" Grid.RowSpan="2"/>
+        <Image x:Name="imgSalud" Grid.Column="1" HorizontalAlignment="Left" Height="69" VerticalAlignment="Center" Width="138" Source="/Assets/health.png" Grid.Row="1" Margin="25,0,0,0"/>
+        <Image x:Name="imgEnergia" Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="13,2,0,0" VerticalAlignment="Top" Width="155" Source="/Assets/energy.png" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Image x:Name="imgMana" Grid.Column="1" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="128" Source="/Assets/mana.png" Grid.Row="3" Margin="28,9,0,0" Grid.RowSpan="2"/>
         <Image x:Name="imgLevel" Grid.Column="2" HorizontalAlignment="Left" Height="60" Margin="470,74,0,0" VerticalAlignment="Top" Width="111" Source="/Assets/level.png"/>
         <TextBox x:Name="txtNivel" Grid.Column="2" HorizontalAlignment="Left" Margin="582,72,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" FontSize="38" Width="88" FontWeight="Bold" BorderBrush="Transparent" SelectionHighlightColor="Transparent" IsReadOnly="True" PlaceholderText="" TextAlignment="Center" BorderThickness="0" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" AllowFocusOnInteraction="False" IsHitTestVisible="False" IsTabStop="False" SelectionHighlightColorWhenNotFocused="Transparent" FocusVisualSecondaryBrush="Transparent" PlaceholderForeground="Transparent" Background="Transparent" Foreground="Black"/>
         <TextBox x:Name="txtNombrePokemon" Grid.Column="2" HorizontalAlignment="Left" Margin="22,72,0,0" Text="Nombre Pokemon" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" FontSize="38" Width="356" FontWeight="Bold" BorderBrush="Transparent" SelectionHighlightColor="Transparent" IsReadOnly="True" PlaceholderText="" TextAlignment="Left" BorderThickness="0" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" AllowFocusOnInteraction="False" IsHitTestVisible="False" IsTabStop="False" SelectionHighlightColorWhenNotFocused="Transparent" FocusVisualSecondaryBrush="Transparent" PlaceholderForeground="Transparent" Background="Transparent" Foreground="Black"/>
 
-        <Button x:Name="btnSalud" Grid.Column="2" Background="{x:Null}" Margin="548,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1">
+        <Button x:Name="btnSalud" Grid.Column="2" Background="{x:Null}" Margin="548,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1" Click="btnSalud_Click">
             <Image Source="Assets\pocSalud.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
@@ -556,6 +628,11 @@
         <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="545,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="3">
             <Image Source="Assets\pocmana.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
+        <Path x:Name="salud1" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,118,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
+        <Path x:Name="salud2" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="224,48,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
+        <Path x:Name="salud3" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,116,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
+        <Path x:Name="salud4" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
+        <Path x:Name="salud5" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
     </Grid>
 
 </Page>

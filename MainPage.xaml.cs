@@ -12,7 +12,10 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+using System.Windows;
+using System.Runtime;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
@@ -26,25 +29,53 @@ namespace CharmanderApp
         public MainPage()
         {
             this.InitializeComponent();
-            
+            animacColaFuego();
+            animacCuadro();
+            ocultarSalud();
         }
 
-        public void centerPage() 
+        
+        private void ocultarSalud()
         {
-            // Obtener el tamaño de la pantalla y la ventana
-            var bounds = Window.Current.Bounds;
-            var viewBounds = ApplicationView.GetForCurrentView().VisibleBounds;
+            this.salud1.Visibility = Visibility.Collapsed;
+            this.salud2.Visibility = Visibility.Collapsed;
+            this.salud3.Visibility = Visibility.Collapsed;
+            this.salud4.Visibility = Visibility.Collapsed;
+            this.salud5.Visibility = Visibility.Collapsed;
+        }
 
-            // Calcular la posición del centro
-            var centerX = viewBounds.Left + (viewBounds.Width - bounds.Width) / 2;
-            var centerY = viewBounds.Top + (viewBounds.Height - bounds.Height) / 2;
+        
+        private void animacColaFuego() 
+        {
+            Storyboard sb = (Storyboard)FindName("AnimacionFuego");
+            sb.RepeatBehavior = RepeatBehavior.Forever;
+            sb.Begin();
+        }
 
-            // Establecer la posición del elemento para que se centre
-            this.HorizontalAlignment = HorizontalAlignment.Center;
-            this.VerticalAlignment = VerticalAlignment.Center;
+        private void animacCuadro()
+        {
+            Storyboard sb = (Storyboard)FindName("AnimacionCuadro");
+           // Storyboard sb = (Storyboard)FindName("AnimacionNivel");
+            sb.RepeatBehavior = RepeatBehavior.Forever;
+            sb.Begin();
+        }
 
-            // Establecer la posición de la página para que se centre
-            this.Margin = new Thickness(centerX, centerY, 0, 0);
+
+        private void btnSalud_Click(object sender, RoutedEventArgs e)
+        {
+            this.salud1.Visibility = Visibility.Visible;
+            this.salud2.Visibility = Visibility.Visible;
+            this.salud3.Visibility = Visibility.Visible;
+            this.salud4.Visibility = Visibility.Visible;
+            this.salud5.Visibility = Visibility.Visible;
+            Storyboard sb = (Storyboard)FindName("AnimacionSalud");
+            sb.RepeatBehavior = new RepeatBehavior(7);
+            sb.Begin();
+        }
+
+        private void AnimacionSalud_Completed(object sender, object e)
+        {
+            ocultarSalud();
         }
     }
 }
