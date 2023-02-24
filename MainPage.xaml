@@ -211,7 +211,7 @@
                                 </Border>
                             </StackPanel>
                             <Border x:Name="DeterminateRoot" Background="{TemplateBinding Background}" BorderThickness="4" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="10" >
-                                <Rectangle x:Name="ProgressBarIndicator" Fill="{TemplateBinding Foreground}" HorizontalAlignment="Left" Margin="{TemplateBinding Padding}" RadiusX="30" RadiusY="30"/>
+                                <Rectangle x:Name="ProgressBarIndicator" Fill="{TemplateBinding Foreground}" HorizontalAlignment="Left" Margin="{TemplateBinding Padding}"/>
                             </Border>
                         </Grid>
                     </ControlTemplate>
@@ -271,24 +271,51 @@
         <Storyboard x:Name="AnimacionSalud" Completed="AnimacionSalud_Completed" >
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud1" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
                 <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FE2CC924"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.5000000" Value="#FF17E80D"/>
             </ColorAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="#FF17E80D"/>
             </ColorAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud3" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.3000000" Value="#FF17E80D"/>
             </ColorAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud4" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+                <EasingColorKeyFrame KeyTime="00:00:01" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.3000000" Value="#FE2CC924"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.5000000" Value="#FF17E80D"/>
             </ColorAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud5" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF17E80D"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FF4F9E4B"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="#FF17E80D"/>
             </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="salud1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="-124.75"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="58.122"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="salud2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="164.014"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="62.287"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="salud3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.1000000" Value="177.897"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="56.164"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="salud4" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.3000000" Value="-124.474"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.5000000" Value="67.339"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="salud5" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.7000000" Value="191.289"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="63.159"/>
+            </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
 
@@ -315,7 +342,7 @@
                 <CompositeTransform TranslateX="0" TranslateY="0"/>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <ProgressBar x:Name="pgSalud" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#4FE71B" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="1" Margin="22,0,0,0" />
+        <ProgressBar x:Name="pgSalud" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#4FE71B" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="1" Margin="22,0,0,0" Foreground="#FF125F0B" />
         <ProgressBar x:Name="pgEnergia" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FFF9AA56" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Foreground="#FFF28109" Grid.Row="2" Margin="22,16,0,0" VerticalAlignment="Top" />
         <ProgressBar x:Name="pgMana" Style="{StaticResource ProgressBarStyle1}" Grid.Column="2" HorizontalAlignment="Left" Height="29" Width="434" Background="#FF65D0F1" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="Black" Minimum="0" Maximum="100" Grid.Row="3" Foreground="#FF0B98C3" Margin="22,0,0,0" />
 
@@ -628,11 +655,32 @@
         <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="545,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="3">
             <Image Source="Assets\pocmana.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
-        <Path x:Name="salud1" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,118,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
-        <Path x:Name="salud2" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="224,48,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
-        <Path x:Name="salud3" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,116,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
-        <Path x:Name="salud4" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
-        <Path x:Name="salud5" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" />
+        <Path x:Name="salud1" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,118,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+            <Path.RenderTransform>
+                <CompositeTransform/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="salud2" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="224,48,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+            <Path.RenderTransform>
+                <CompositeTransform/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="salud3" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,116,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+            <Path.RenderTransform>
+                <CompositeTransform/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="salud4" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+            <Path.RenderTransform>
+                <CompositeTransform/>
+            </Path.RenderTransform>
+        </Path>
+        <Path x:Name="salud5" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+            <Path.RenderTransform>
+                <CompositeTransform/>
+            </Path.RenderTransform>
+        </Path>
+        
     </Grid>
 
 </Page>

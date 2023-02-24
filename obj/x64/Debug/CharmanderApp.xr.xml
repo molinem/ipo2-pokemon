@@ -59,18 +59,18 @@
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingColorKeyFrame">
-      <RootProperty Name="KeyTime" />
-      <RootProperty Name="Value" />
-      <RootProperty Name="EasingFunction" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
-      <RootProperty Name="EnableDependentAnimation" />
       <RootProperty Name="KeyFrames" />
+      <RootProperty Name="EnableDependentAnimation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingDoubleKeyFrame">
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingColorKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="EasingFunction" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimation">
       <RootProperty Name="Duration" />
@@ -179,8 +179,6 @@
       <RootProperty Name="Fill" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="RadiusX" />
-      <RootProperty Name="RadiusY" />
       <RootProperty Name="Height" />
       <RootProperty Name="Stroke" />
       <RootProperty Name="VerticalAlignment" />
@@ -188,6 +186,8 @@
       <RootProperty Name="FocusVisualSecondaryBrush" />
       <RootProperty Name="StrokeThickness" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="UseLayoutRounding" />
     </RootType>
@@ -293,6 +293,11 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+      <RootProperty Name="TranslateX" />
+      <RootProperty Name="TranslateY" />
+    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
       <RootProperty Name="Children" />
@@ -307,11 +312,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.RotateTransform">
       <RootProperty Name="Angle" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="Rotation" />
-      <RootProperty Name="TranslateX" />
-      <RootProperty Name="TranslateY" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="CharmanderApp.MainPage" />

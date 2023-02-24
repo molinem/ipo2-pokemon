@@ -30,13 +30,29 @@
     <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-23T20:35:48.678</Modified>
+      <Modified>2023-02-24T19:03:33.424</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.exe">
       <PackagePath>entrypoint\CharmanderApp.exe</PackagePath>
-      <Modified>2023-02-23T20:35:48.145</Modified>
+      <Modified>2023-02-24T19:03:32.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\commonservicelocator\2.0.2\lib\netstandard2.0\CommonServiceLocator.dll">
+      <PackagePath>CommonServiceLocator.dll</PackagePath>
+      <Modified>2018-01-03T11:27:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2018-02-04T22:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2018-02-04T22:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\mvvmlightlibs\5.4.1.1\lib\uap10.0\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2018-02-04T22:10:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -118,15 +134,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\CharmanderApp.xr.xml">
       <PackagePath>CharmanderApp.xr.xml</PackagePath>
-      <Modified>2023-02-23T20:33:13.824</Modified>
+      <Modified>2023-02-24T17:18:37.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-23T20:35:48.092</Modified>
+      <Modified>2023-02-24T19:00:13.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-23T20:35:48.092</Modified>
+      <Modified>2023-02-24T19:00:13.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-23T20:34:15.006</Modified>
+      <Modified>2023-02-24T18:53:18.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\CharmanderApp.exe">
       <PackagePath>CharmanderApp.exe</PackagePath>
-      <Modified>2023-02-23T20:35:48.676</Modified>
+      <Modified>2023-02-24T19:03:33.422</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
