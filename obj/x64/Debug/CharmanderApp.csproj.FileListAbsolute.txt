@@ -95,3 +95,4 @@ C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\qualifiers.txt.i
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x64\Debug\CharmanderApp.csprojAssemblyReference.cache

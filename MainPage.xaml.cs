@@ -42,7 +42,12 @@ namespace CharmanderApp
         //Puntos totales conseguidos
         int puntos_conseguidos = 0;
 
+        //Control para saber si se alcanza cierto punto
+        bool realizadoF1, realizadoF2, realizadoF3, realizadoF4, realizadoF5, realizadoF6, realizadoF7 = false;
 
+        /// <summary>
+        /// Método principal
+        /// </summary>
         public MainPage()
         {
             this.InitializeComponent();
@@ -63,7 +68,11 @@ namespace CharmanderApp
             tim.Start();
         }
 
-
+        /// <summary>
+        /// Clock que realiza las tareas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void clock(object sender, EventArgs e)
         {
             pgSalud.Value -= salud;
@@ -93,11 +102,87 @@ namespace CharmanderApp
 
         }
 
+        /// <summary>
+        /// Gestión de niveles + upgrades de progreso
+        /// </summary>
         private void gestionNiveles()
         {
-            
+            if (puntos_conseguidos < 40)
+            {
+                nivel = 0;
+
+                salud = 1.6;
+                energia = 1.6;
+                mana = 1.6;
+            }
+
+            if (puntos_conseguidos >= 40 && puntos_conseguidos < 80 && !realizadoF1)
+            {
+                puntos_conseguidos += 15;
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "1";
+                //Lanzar animación Nivel Visual
+                realizadoF1 = true;
+            }
+
+            if (puntos_conseguidos >= 90 && puntos_conseguidos < 200 && !realizadoF2)
+            {
+                puntos_conseguidos += 25;
+                lanzarAnimacion("AnimacionNivel", 3);
+                //Lanzar animación Nivel Visual
+                realizadoF2 = true;
+            }
+
+            if (puntos_conseguidos >= 125 && puntos_conseguidos < 600 && !realizadoF3)
+            {
+                puntos_conseguidos += 30;
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "2";
+                //Lanzar animación Nivel Visual
+                realizadoF3 = true;
+            }
+
+            if (puntos_conseguidos >= 320 && puntos_conseguidos < 650 && !realizadoF4)
+            {
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "3";
+                //Lanzar animación Nivel Visual
+                realizadoF4 = true;
+            }
+
+            if (puntos_conseguidos >= 420 && puntos_conseguidos < 720 && !realizadoF5)
+            {
+                puntos_conseguidos += 40;
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "4";
+                //Lanzar animación Nivel Visual
+                realizadoF5 = true;
+            }
+
+            if (puntos_conseguidos >= 520 && puntos_conseguidos < 800 && !realizadoF6)
+            {
+                puntos_conseguidos += 40;
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "5";
+                //Lanzar animación Nivel Visual
+                realizadoF6 = true;
+            }
+
+            if (puntos_conseguidos >= 850 && !realizadoF7)
+            {
+                puntos_conseguidos += 50;
+                lanzarAnimacion("AnimacionNivel", 3);
+                txtNivel.Text = "6";
+                //Lanzar animación Nivel Visual
+                realizadoF7 = true;
+            }
         }
 
+        /// <summary>
+        /// Click en botón salud
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSalud_Click(object sender, RoutedEventArgs e)
         {
             
@@ -136,8 +221,12 @@ namespace CharmanderApp
         private void lanzarAnimacion(String animacion, int repeticiones)
         {
             Storyboard sb = (Storyboard)FindName(animacion);
-            sb.RepeatBehavior = new RepeatBehavior(repeticiones);
-            sb.Begin();
+            if (sb != null)
+            {
+                sb.RepeatBehavior = new RepeatBehavior(repeticiones);
+                sb.Begin();
+            }
+            
         }
 
         /// <summary>
