@@ -57,6 +57,7 @@ namespace CharmanderApp
             animacPermanentes("AnimacionFuego");
 
             ocultarSalud();
+            ocultarEstrellas();
 
             pgSalud.Value = 100;
             pgEnergia.Value = 100;
@@ -128,7 +129,6 @@ namespace CharmanderApp
             if (puntos_conseguidos >= 90 && puntos_conseguidos < 200 && !realizadoF2)
             {
                 puntos_conseguidos += 25;
-                lanzarAnimacion("AnimacionNivel", 3);
                 //Lanzar animación Nivel Visual
                 realizadoF2 = true;
             }
@@ -250,6 +250,40 @@ namespace CharmanderApp
             btnMana.IsEnabled = true;
         }
 
+        private void btnEnergia_Click(object sender, RoutedEventArgs e)
+        {
+            switch (nivel)
+            {
+                case 0:
+                    puntos_conseguidos += 15;
+                    break;
+                case 1:
+                    puntos_conseguidos += 25;
+                    break;
+                case 2 | 3:
+                    puntos_conseguidos += 45;
+                    break;
+                case 4 | 6 | 7:
+                    puntos_conseguidos += 45;
+                    break;
+                default:
+                    break;
+            }
+
+            this.pgEnergia.Value += 28;
+
+            mostrarEstrellas();
+            deshabilitarBotones();
+            lanzarAnimacion("AnimacionOjos", 2);
+            lanzarAnimacion("AnimacionEstrellas", 3);
+        }
+
+        private void AnimacionEstrellas_Completed(object sender, object e)
+        {
+            ocultarEstrellas();
+            habilitarBotones();
+        }
+
         /// <summary>
         /// Habilitar botones
         /// </summary>
@@ -285,14 +319,40 @@ namespace CharmanderApp
         }
 
         /// <summary>
+        /// Mostrar estrellas
+        /// </summary>
+        private void mostrarEstrellas()
+        {
+            this.estrella1.Visibility = Visibility.Visible;
+            this.estrella2.Visibility = Visibility.Visible;
+            this.estrella3.Visibility = Visibility.Visible;
+            this.estrella4.Visibility = Visibility.Visible;
+        }
+
+        /// <summary>
+        /// Ocultar estrellas
+        /// </summary>
+        private void ocultarEstrellas()
+        {
+            this.estrella1.Visibility = Visibility.Collapsed;
+            this.estrella2.Visibility = Visibility.Collapsed;
+            this.estrella3.Visibility = Visibility.Collapsed;
+            this.estrella4.Visibility = Visibility.Collapsed;
+        }
+
+        /// <summary>
         /// Lanza animaciones permanentes
         /// </summary>
         /// <param name="nombre"></param>
         private void animacPermanentes(String nombre)
         {
-            Storyboard sb = (Storyboard)FindName(nombre);
-            sb.RepeatBehavior = RepeatBehavior.Forever;
-            sb.Begin();
+            Storyboard sbA = (Storyboard)FindName(nombre);
+            if (sbA != null)
+            {
+                sbA.RepeatBehavior = RepeatBehavior.Forever;
+                sbA.Begin();
+            }
+            
         }
 
 

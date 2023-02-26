@@ -60,8 +60,8 @@
       <RootProperty Name="KeyFrames" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
-      <RootProperty Name="KeyFrames" />
       <RootProperty Name="EnableDependentAnimation" />
+      <RootProperty Name="KeyFrames" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingDoubleKeyFrame">
       <RootProperty Name="KeyTime" />

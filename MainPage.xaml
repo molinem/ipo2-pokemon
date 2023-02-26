@@ -317,6 +317,56 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="63.159"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Name="AnimacionEstrellas" Completed="AnimacionEstrellas_Completed">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="estrella1" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF5FF1F"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FFF0AD1D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="estrella4" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF5FF1F"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FFF0AD1D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="estrella3" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF5FF1F"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FFF0AD1D"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="estrella2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF5FF1F"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FFF0AD1D"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella1" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="55"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella4" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="55"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella3" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="55"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella2" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="55"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella1" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="51"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella4" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="51"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella3" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="51"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="estrella2" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="51"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Page.Resources>
 
     <Grid Margin="10,2,0,0">
@@ -636,6 +686,46 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
+            <Path x:Name="estrella1" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="188,87,695,285" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="34.743"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="estrella4" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,79,208,288" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="34.743"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="estrella3" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="157,287,721,80" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="34.743"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Path x:Name="estrella2" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,297,208,70" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="34.743"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
         </Grid>
         <Image x:Name="imgSalud" Grid.Column="1" HorizontalAlignment="Left" Height="69" VerticalAlignment="Center" Width="138" Source="/Assets/health.png" Grid.Row="1" Margin="25,0,0,0"/>
         <Image x:Name="imgEnergia" Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="13,2,0,0" VerticalAlignment="Top" Width="155" Source="/Assets/energy.png" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
@@ -648,7 +738,7 @@
             <Image Source="Assets\pocSalud.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
-        <Button x:Name="btnEnergia" Grid.Column="2" Background="{x:Null}" Margin="548,46,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Top">
+        <Button x:Name="btnEnergia" Grid.Column="2" Background="{x:Null}" Margin="548,46,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Top" Click="btnEnergia_Click">
             <Image Source="Assets\pocEnergia.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
@@ -680,7 +770,8 @@
                 <CompositeTransform/>
             </Path.RenderTransform>
         </Path>
-        
+
+
     </Grid>
 
 </Page>
