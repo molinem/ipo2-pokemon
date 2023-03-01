@@ -279,6 +279,7 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Data" />
       <RootProperty Name="Fill" />
       <RootProperty Name="HorizontalAlignment" />

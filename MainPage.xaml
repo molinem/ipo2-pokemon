@@ -686,7 +686,7 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Path x:Name="estrella1" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="188,87,695,285" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+            <Path x:Name="estrella1" Visibility="Collapsed" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="188,87,695,285" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -696,7 +696,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Path x:Name="estrella4" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,79,208,288" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+            <Path x:Name="estrella4" Visibility="Collapsed" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,79,208,288" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -706,7 +706,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Path x:Name="estrella3" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="157,287,721,80" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+            <Path x:Name="estrella3" Visibility="Collapsed" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="157,287,721,80" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -716,7 +716,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Path x:Name="estrella2" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,297,208,70" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
+            <Path x:Name="estrella2" Visibility="Collapsed" Fill="#FFF5FF1F" Stroke="#FF000000" StrokeThickness="4" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="670,297,208,70" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="36" Height="36" >
                 <Path.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -745,27 +745,27 @@
         <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="545,0,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="3">
             <Image Source="Assets\pocmana.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
-        <Path x:Name="salud1" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,118,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+        <Path x:Name="salud1" Visibility="Collapsed" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,118,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
             <Path.RenderTransform>
                 <CompositeTransform/>
             </Path.RenderTransform>
         </Path>
-        <Path x:Name="salud2" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="224,48,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+        <Path x:Name="salud2" Visibility="Collapsed" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="224,48,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
             <Path.RenderTransform>
                 <CompositeTransform/>
             </Path.RenderTransform>
         </Path>
-        <Path x:Name="salud3" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,116,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+        <Path x:Name="salud3" Visibility="Collapsed" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,116,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
             <Path.RenderTransform>
                 <CompositeTransform/>
             </Path.RenderTransform>
         </Path>
-        <Path x:Name="salud4" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+        <Path x:Name="salud4" Visibility="Collapsed" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="41,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
             <Path.RenderTransform>
                 <CompositeTransform/>
             </Path.RenderTransform>
         </Path>
-        <Path x:Name="salud5" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
+        <Path x:Name="salud5" Visibility="Collapsed" Data="M17.405003,0.5 L17.459837,9.8227271 27,9.8227271 27,17.288727 17.503752,17.288727 17.560869,26.999542 10.094997,27.043455 10.037621,17.288727 0.5,17.288727 0.5,9.8227271 9.9937086,9.8227271 9.9391317,0.54391289 z" Fill="#FF4F9E4B" HorizontalAlignment="Left" Height="34.044" Margin="398,350,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="35.75" StrokeThickness="2" UseLayoutRounding="False" RenderTransformOrigin="0.503,0.514" Grid.Column="2" Grid.Row="4" >
             <Path.RenderTransform>
                 <CompositeTransform/>
             </Path.RenderTransform>

@@ -185,7 +185,6 @@ namespace CharmanderApp
         /// <param name="e"></param>
         private void btnSalud_Click(object sender, RoutedEventArgs e)
         {
-            
             switch (nivel)
             {
                 case 0:
@@ -208,7 +207,7 @@ namespace CharmanderApp
 
             mostrarSalud();
             deshabilitarBotones();
-            lanzarAnimacion("AnimacionSalud", 2);
+            lanzarAnimacion("AnimacionSalud", 1);
         }
 
         /// <summary>
@@ -226,7 +225,6 @@ namespace CharmanderApp
                 sb.RepeatBehavior = new RepeatBehavior(repeticiones);
                 sb.Begin();
             }
-            
         }
 
         /// <summary>
@@ -250,6 +248,11 @@ namespace CharmanderApp
             btnMana.IsEnabled = true;
         }
 
+        /// <summary>
+        /// Al presionar la poción de energía
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnEnergia_Click(object sender, RoutedEventArgs e)
         {
             switch (nivel)
@@ -278,6 +281,12 @@ namespace CharmanderApp
             lanzarAnimacion("AnimacionEstrellas", 3);
         }
 
+        /// <summary>
+        /// Cuando se completa la 
+        /// animación de estrellas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AnimacionEstrellas_Completed(object sender, object e)
         {
             ocultarEstrellas();
