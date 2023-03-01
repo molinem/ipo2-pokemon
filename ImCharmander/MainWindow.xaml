@@ -317,7 +317,7 @@
                 </TransformGroup>
             </Path.RenderTransform>
         </Path>
-        <Path Fill="#FF2AB0E2" Stroke="#FF000000" StrokeThickness="2" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="39.75,229.558,727.25,179.42" Stretch="Fill" RenderTransformOrigin="0.5,0.5" >
+        <Path Fill="#FF2AB0E2" Stroke="#FF000000" StrokeThickness="2" Data="M 161.329,159.739 173.644,107.898 215.989,107.898 180.462,74.357 192.776,22.516 161.329,55.318 129.882,22.516 142.196,74.357 106.669,107.898 149.014,107.898 z" Margin="49.75,32.558,717.25,376.42" Stretch="Fill" RenderTransformOrigin="0.5,0.5" >
             <Path.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

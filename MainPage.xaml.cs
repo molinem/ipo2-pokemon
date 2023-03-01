@@ -98,7 +98,7 @@ namespace CharmanderApp
             }
             else if (puntos_conseguidos >= 850) //El jugador/a gana
             {
-
+                //MessageBox
             }
 
         }
@@ -179,11 +179,9 @@ namespace CharmanderApp
         }
 
         /// <summary>
-        /// Click en botón salud
+        /// Asigna los puntos según el nivél
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnSalud_Click(object sender, RoutedEventArgs e)
+        private void asignarPuntosBoton()
         {
             switch (nivel)
             {
@@ -202,7 +200,17 @@ namespace CharmanderApp
                 default:
                     break;
             }
+        }
 
+
+        /// <summary>
+        /// Click en botón salud
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSalud_Click(object sender, RoutedEventArgs e)
+        {
+            asignarPuntosBoton();
             this.pgSalud.Value += 25;
 
             mostrarSalud();
@@ -255,24 +263,7 @@ namespace CharmanderApp
         /// <param name="e"></param>
         private void btnEnergia_Click(object sender, RoutedEventArgs e)
         {
-            switch (nivel)
-            {
-                case 0:
-                    puntos_conseguidos += 15;
-                    break;
-                case 1:
-                    puntos_conseguidos += 25;
-                    break;
-                case 2 | 3:
-                    puntos_conseguidos += 45;
-                    break;
-                case 4 | 6 | 7:
-                    puntos_conseguidos += 45;
-                    break;
-                default:
-                    break;
-            }
-
+            asignarPuntosBoton();
             this.pgEnergia.Value += 28;
 
             mostrarEstrellas();
@@ -290,6 +281,32 @@ namespace CharmanderApp
         private void AnimacionEstrellas_Completed(object sender, object e)
         {
             ocultarEstrellas();
+            habilitarBotones();
+        }
+
+        /// <summary>
+        /// Evento al pulsar la poción
+        /// que se corresponde al maná
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnMana_Click(object sender, RoutedEventArgs e)
+        {
+            asignarPuntosBoton();
+            this.pgMana.Value += 25;
+
+            deshabilitarBotones();
+            lanzarAnimacion("AnimacionMana", 2);
+        }
+
+        /// <summary>
+        /// Cuando se completa la 
+        /// animación del maná
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void AnimacionMana_Completed(object sender, object e)
+        {
             habilitarBotones();
         }
 
