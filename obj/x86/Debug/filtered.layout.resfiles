@@ -1,6 +1,14 @@
 WinMetadata\Windows.winmd
-Assets\background.png
+Assets\background.jpg
+Assets\blanco.jpg
+Assets\energy.png
+Assets\health.png
+Assets\level.png
 Assets\LockScreenLogo.scale-200.png
+Assets\mana.png
+Assets\pocenergia.png
+Assets\pocmana.png
+Assets\pocsalud.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -8,6 +16,6 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
-CharmanderApp.xr.xml
 MainPage.xbf
+PokeApp.xr.xml
 Properties\Default.rd.xml

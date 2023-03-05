@@ -8,22 +8,22 @@
 //------------------------------------------------------------------------------
 
 
-namespace CharmanderApp
+namespace PokeApp
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
-        private global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::PokeApp.PokeApp_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::PokeApp.PokeApp_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::PokeApp.PokeApp_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace CharmanderApp
     }
 }
 
-namespace CharmanderApp.CharmanderApp_XamlTypeInfo
+namespace PokeApp.PokeApp_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace CharmanderApp.CharmanderApp_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::PokeApp.PokeApp_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::PokeApp.PokeApp_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::CharmanderApp.CharmanderApp_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::PokeApp.PokeApp_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

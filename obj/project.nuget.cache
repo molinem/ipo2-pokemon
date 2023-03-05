@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wHIHDocrBO/CJ3HKEOvu4uJ5oN5pVg3Kg22XlcnNrjkF3b5r+dG7HuFUEjfJ5sKKQcxWT63lQ7y2Pyvkob4HXg==",
+  "dgSpecHash": "Tv3GheqZL3czJJvDLYzQlMpYdrI6W3nx7hyW8VkYh6xKAAq0sPdEWKxeQG58qSe3Qm+JUpOEPgd7f1TbI9A1WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\CharmanderApp.csproj",
+  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Moli\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
-    "C:\\Users\\Moli\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-arm.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",

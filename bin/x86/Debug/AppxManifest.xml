@@ -7,10 +7,10 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="a804aae4-f79c-45d0-a03c-f0da71f54c55" Publisher="CN=Moli" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="a804aae4-f79c-45d0-a03c-f0da71f54c55" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="189d2359-9ca3-4702-a29c-d752af8ff0b2" Publisher="CN=Moli" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="189d2359-9ca3-4702-a29c-d752af8ff0b2" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>CharmanderApp</DisplayName>
+    <DisplayName>PokeApp</DisplayName>
     <PublisherDisplayName>Moli</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,8 +23,8 @@
     <Resource Language="ES-ES" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="CharmanderApp.exe" EntryPoint="CharmanderApp.App">
-      <uap:VisualElements DisplayName="CharmanderApp" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="CharmanderApp" BackgroundColor="transparent">
+    <Application Id="App" Executable="PokeApp.exe" EntryPoint="PokeApp.App">
+      <uap:VisualElements DisplayName="PokeApp" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="PokeApp" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
@@ -47,7 +47,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.19041.2604 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31110.138" />
-    <build:Item Name="ProjectGUID" Value="{82EF174A-AE4A-4EE5-A403-64194D20A285}" />
+    <build:Item Name="ProjectGUID" Value="{0A7C2AC8-CAE2-43C6-B081-BC913BDF2079}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685" />

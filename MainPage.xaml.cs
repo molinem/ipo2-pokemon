@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
-namespace CharmanderApp
+namespace PokeApp
 {
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
@@ -53,8 +53,7 @@ namespace CharmanderApp
             this.InitializeComponent();
 
             //Animaciones permanentes
-            animacPermanentes("AnimacionCuadro");
-            animacPermanentes("AnimacionFuego");
+            animacPermanentes("AnimacionFuegos");
 
             ocultarSalud();
             ocultarEstrellas();
@@ -215,7 +214,7 @@ namespace CharmanderApp
 
             mostrarSalud();
             deshabilitarBotones();
-            lanzarAnimacion("AnimacionSalud", 1);
+            lanzarAnimacion("AnimacionSalud", 2);
         }
 
         /// <summary>
@@ -269,7 +268,7 @@ namespace CharmanderApp
             mostrarEstrellas();
             deshabilitarBotones();
             lanzarAnimacion("AnimacionOjos", 2);
-            lanzarAnimacion("AnimacionEstrellas", 3);
+            lanzarAnimacion("AnimacionEstrellitas", 3);
         }
 
         /// <summary>
@@ -320,6 +319,7 @@ namespace CharmanderApp
             btnMana.IsEnabled = false;
         }
 
+        
         /// <summary>
         /// Hace visible los path de salud
         /// </summary>
@@ -366,6 +366,7 @@ namespace CharmanderApp
             this.estrella4.Visibility = Visibility.Collapsed;
         }
 
+        
         /// <summary>
         /// Lanza animaciones permanentes
         /// </summary>
@@ -378,12 +379,9 @@ namespace CharmanderApp
                 sbA.RepeatBehavior = RepeatBehavior.Forever;
                 sbA.Begin();
             }
-            
         }
 
 
-        
 
-        
     }
 }
