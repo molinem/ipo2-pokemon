@@ -54,6 +54,7 @@ namespace PokeApp
 
             //Animaciones permanentes
             animacPermanentes("AnimacionFuegos");
+            
 
             ocultarSalud();
             ocultarEstrellas();
@@ -214,6 +215,7 @@ namespace PokeApp
 
             mostrarSalud();
             deshabilitarBotones();
+            lanzarAnimacion("AnimacionPgVida", 2);
             lanzarAnimacion("AnimacionSalud", 2);
         }
 
@@ -268,6 +270,7 @@ namespace PokeApp
             mostrarEstrellas();
             deshabilitarBotones();
             lanzarAnimacion("AnimacionOjos", 2);
+            lanzarAnimacion("AnimacionPgEnergia", 2);
             lanzarAnimacion("AnimacionEstrellitas", 3);
         }
 
@@ -295,7 +298,8 @@ namespace PokeApp
             this.pgMana.Value += 25;
 
             deshabilitarBotones();
-            lanzarAnimacion("AnimacionMana", 2);
+            lanzarAnimacion("AnimacionPgMana", 2);
+            lanzarAnimacion("AnimacionMana", 3);
         }
 
         /// <summary>

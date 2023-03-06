@@ -42,4 +42,3 @@ C:\Users\Moli\Documents\Repositorios\PokeApp\obj\x86\Debug\qualifiers.txt.interm
 C:\Users\Moli\Documents\Repositorios\PokeApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Moli\Documents\Repositorios\PokeApp\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Moli\Documents\Repositorios\PokeApp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
-C:\Users\Moli\Documents\Repositorios\PokeApp\obj\x86\Debug\PokeApp.csprojAssemblyReference.cache

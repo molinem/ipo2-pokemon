@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DFD391617774687C4901DD82B2214AE40235619B8042DD564A8F83ED60FD92C6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>BA62D72383E9119DFBF75947C11D5E879941F7FF1F66E269BCD0791428F5712E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>189d2359-9ca3-4702-a29c-d752af8ff0b2_1.0.0.0_x86__srscwv5t0w6xc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>189d2359-9ca3-4702-a29c-d752af8ff0b2_srscwv5t0w6xc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>189d2359-9ca3-4702-a29c-d752af8ff0b2</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-05T22:29:19.799</Modified>
+      <Modified>2023-03-06T17:30:26.718</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\PokeApp.exe">
       <PackagePath>entrypoint\PokeApp.exe</PackagePath>
-      <Modified>2023-03-05T22:29:19.251</Modified>
+      <Modified>2023-03-06T17:30:26.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -122,15 +122,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\PokeApp.xr.xml">
       <PackagePath>PokeApp.xr.xml</PackagePath>
-      <Modified>2023-03-05T22:29:19.129</Modified>
+      <Modified>2023-03-06T17:19:32.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-05T22:29:19.170</Modified>
+      <Modified>2023-03-06T16:58:08.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-05T22:29:19.170</Modified>
+      <Modified>2023-03-06T17:30:26.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -138,11 +138,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-05T19:14:36.733</Modified>
+      <Modified>2023-03-06T16:58:09.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\Documents\Repositorios\PokeApp\bin\x86\Debug\Core\PokeApp.exe">
       <PackagePath>PokeApp.exe</PackagePath>
-      <Modified>2023-03-05T22:29:19.791</Modified>
+      <Modified>2023-03-06T17:30:26.715</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
