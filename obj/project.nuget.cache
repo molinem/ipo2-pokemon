@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tv3GheqZL3czJJvDLYzQlMpYdrI6W3nx7hyW8VkYh6xKAAq0sPdEWKxeQG58qSe3Qm+JUpOEPgd7f1TbI9A1WQ==",
+  "dgSpecHash": "vubqacBvENWLMCOE0hhWHtT6ObpM7ezxpPD1yzw2xegy6XTa7D518BshtELRbqo/DzOcXSr7m0t4lv+QdqENCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj",
+  "projectFilePath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\PokeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",

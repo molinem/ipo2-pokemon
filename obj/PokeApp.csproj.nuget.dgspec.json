@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj": {}
+    "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\PokeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj": {
+    "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\PokeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj",
+        "projectUniqueName": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\PokeApp.csproj",
         "projectName": "PokeApp",
-        "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\PokeApp.csproj",
+        "projectPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\PokeApp.csproj",
         "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\PokeApp\\obj\\",
+        "outputPath": "C:\\Users\\Moli\\Documents\\Repositorios\\ipo2-pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
