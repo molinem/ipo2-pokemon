@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Repositorios\ipo2-pokemon\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9100CA12D38A258BC03985235CADA0FA6C268B23D7309A06FCA5EFB750C52A7E</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>ED0772CB98CA0C56469227049061A4DE3CE7DBD9AE58E0AEE25758F22A66D524</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>189d2359-9ca3-4702-a29c-d752af8ff0b2_1.0.0.0_x86__srscwv5t0w6xc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>189d2359-9ca3-4702-a29c-d752af8ff0b2_srscwv5t0w6xc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>189d2359-9ca3-4702-a29c-d752af8ff0b2</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-08T16:10:28.219</Modified>
+      <Modified>2023-03-08T21:46:20.467</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\PokeApp.exe">
       <PackagePath>entrypoint\PokeApp.exe</PackagePath>
-      <Modified>2023-03-08T16:10:27.906</Modified>
+      <Modified>2023-03-08T21:46:20.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -122,15 +122,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\PokeApp.xr.xml">
       <PackagePath>PokeApp.xr.xml</PackagePath>
-      <Modified>2023-03-08T16:01:12.330</Modified>
+      <Modified>2023-03-08T21:44:02.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-08T16:08:50.325</Modified>
+      <Modified>2023-03-08T20:47:07.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-08T16:10:27.847</Modified>
+      <Modified>2023-03-08T21:46:20.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\ucVisorCharmander.xbf">
+      <PackagePath>ucVisorCharmander.xbf</PackagePath>
+      <Modified>2023-03-08T20:47:07.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -138,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-08T12:54:11.001</Modified>
+      <Modified>2023-03-08T17:33:38.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\Core\PokeApp.exe">
       <PackagePath>PokeApp.exe</PackagePath>
-      <Modified>2023-03-08T16:10:28.217</Modified>
+      <Modified>2023-03-08T21:46:20.464</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -89,6 +89,7 @@ C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x86\Debug\ProjectArchitect
 C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 C:\Repositorios\ipo2-pokemon\bin\x86\Debug\App.xbf
 C:\Repositorios\ipo2-pokemon\bin\x86\Debug\MainPage.xbf
+C:\Repositorios\ipo2-pokemon\bin\x86\Debug\ucVisorCharmander.xbf
 C:\Repositorios\ipo2-pokemon\bin\x86\Debug\PokeApp.xr.xml
 C:\Repositorios\ipo2-pokemon\bin\x86\Debug\PokeApp.exe
 C:\Repositorios\ipo2-pokemon\bin\x86\Debug\PokeApp.pdb
@@ -103,11 +104,15 @@ C:\Repositorios\ipo2-pokemon\obj\x86\Debug\App.g.i.cs
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\App.g.cs
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\MainPage.g.i.cs
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\MainPage.g.cs
+C:\Repositorios\ipo2-pokemon\obj\x86\Debug\ucVisorCharmander.g.i.cs
+C:\Repositorios\ipo2-pokemon\obj\x86\Debug\ucVisorCharmander.g.cs
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\App.xaml
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\MainPage.xaml
+C:\Repositorios\ipo2-pokemon\obj\x86\Debug\ucVisorCharmander.xaml
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\App.xbf
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\MainPage.xbf
+C:\Repositorios\ipo2-pokemon\obj\x86\Debug\ucVisorCharmander.xbf
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\PokeApp.csproj.CoreCompileInputs.cache
 C:\Repositorios\ipo2-pokemon\obj\x86\Debug\PokeApp.csproj.CopyComplete

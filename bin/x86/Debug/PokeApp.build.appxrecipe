@@ -100,6 +100,9 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x86\Debug\ucVisorCharmander.xbf">
+      <PackagePath>ucVisorCharmander.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
