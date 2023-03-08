@@ -302,15 +302,35 @@ namespace PokeApp
             lanzarAnimacion("AnimacionMana", 3);
 
             visibleLogro();
+            txtLogro.Text = "Ganas 10 puntos";
             lanzarAnimacion("AnimacionLogro", 1);
         }
 
+        /// <summary>
+        /// Hace visible el logro
+        /// </summary>
         private void visibleLogro()
         {
             this.rectangle.Visibility = Visibility.Visible;
             this.pokBase.Visibility = Visibility.Visible;
             this.path10.Visibility = Visibility.Visible;
             this.path11.Visibility = Visibility.Visible;
+            this.pokBoton.Visibility = Visibility.Visible;
+            this.pokBoton2.Visibility = Visibility.Visible;
+        }
+
+        /// <summary>
+        /// Oculta los elementos del logro
+        /// </summary>
+        private void OcultarLogro()
+        {
+            this.rectangle.Visibility = Visibility.Collapsed;
+            this.pokBase.Visibility = Visibility.Collapsed;
+            this.path10.Visibility = Visibility.Collapsed;
+            this.path11.Visibility = Visibility.Collapsed;
+            this.pokBoton.Visibility = Visibility.Collapsed;
+            this.pokBoton2.Visibility = Visibility.Collapsed;
+            this.txtLogro.Visibility = Visibility.Collapsed;
         }
 
         /// <summary>
@@ -322,6 +342,16 @@ namespace PokeApp
         private void AnimacionMana_Completed(object sender, object e)
         {
             habilitarBotones();
+        }
+
+        /// <summary>
+        /// Cuando se completa la animación del logro
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void AnimacionLogro_Completed(object sender, object e)
+        {
+            OcultarLogro();
         }
 
         /// <summary>

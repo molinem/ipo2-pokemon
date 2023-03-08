@@ -397,7 +397,7 @@
                 <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="Black"/>
             </ColorAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="AnimacionLogro">
+        <Storyboard x:Name="AnimacionLogro" Completed="AnimacionLogro_Completed">
             <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBase" Storyboard.TargetProperty="(FrameworkElement.Width)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5330000" Value="40"/>
@@ -485,9 +485,17 @@
                 <EasingColorKeyFrame KeyTime="00:00:01.9000000" Value="White"/>
                 <EasingColorKeyFrame KeyTime="00:00:02.5000000" Value="#FFF9F5F5"/>
             </ColorAnimationUsingKeyFrames>
-            
+
             <DoubleAnimation Duration="00:00:06" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" To="1"/>
             <DoubleAnimation Duration="00:00:06" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="0"/>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="txtLogro" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:06" Value="Visible"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:08.7000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
 
@@ -883,6 +891,7 @@
             <Path x:Name="path11" Data="M0,0 L35,0" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="61,50,0,0" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="40" Stretch="Fill" Visibility="Collapsed"/>
             <Ellipse x:Name="pokBoton" HorizontalAlignment="Left" Height="0" Margin="34,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="0" FocusVisualPrimaryBrush="{x:Null}" StrokeThickness="0" Fill="Black"/>
             <Ellipse x:Name="pokBoton2" HorizontalAlignment="Left" Height="0" Margin="40,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="0" FocusVisualPrimaryBrush="White" StrokeThickness="0" Fill="Black"/>
+            <TextBox x:Name="txtLogro" HorizontalAlignment="Left" Margin="105,28,0,0" Text="textoLogro" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" FontSize="28" Width="246" FontWeight="Bold" BorderBrush="Transparent" SelectionHighlightColor="Transparent" IsReadOnly="True" PlaceholderText="" TextAlignment="Center" BorderThickness="0" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" AllowFocusOnInteraction="False" IsHitTestVisible="False" IsTabStop="False" SelectionHighlightColorWhenNotFocused="Transparent" FocusVisualSecondaryBrush="Transparent" PlaceholderForeground="Transparent" Background="Transparent" Foreground="Black" RenderTransformOrigin="0.489,0.45" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>
