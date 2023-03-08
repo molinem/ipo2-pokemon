@@ -1,1 +1,1 @@
-C:\Users\Moli\Documents\Repositorios\ipo2-pokemon\PokeApp.csproj;x86
+C:\Repositorios\ipo2-pokemon\PokeApp.csproj;x86

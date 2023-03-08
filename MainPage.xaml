@@ -397,6 +397,98 @@
                 <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="Black"/>
             </ColorAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Name="AnimacionLogro">
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBase" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5330000" Value="40"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.0670000" Value="80"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.6000000" Value="100"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBase" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.5330000" Value="40"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.0670000" Value="80"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.6000000" Value="100"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pokBase" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.5000000" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.5330000" Value="#FF9A9DB8"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.7000000" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:01" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.0670000" Value="#FF9A9DB8"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.6000000" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.7000000" Value="#FF4852B6"/>
+                <EasingColorKeyFrame KeyTime="00:00:06" Value="#FFBE62FD"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="path10" Storyboard.TargetProperty="(Shape.StrokeThickness)" EnableDependentAnimation="True">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.9000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.3000000" Value="1.4"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.9000000" Value="7"/>
+            </DoubleAnimationUsingKeyFrames>
+
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="path11" Storyboard.TargetProperty="(Shape.StrokeThickness)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.9000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.9000000" Value="7"/>
+            </DoubleAnimationUsingKeyFrames>
+
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton" Storyboard.TargetProperty="(Shape.StrokeThickness)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton2" Storyboard.TargetProperty="(Shape.StrokeThickness)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="33"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="33"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="32"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="32"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton2" Storyboard.TargetProperty="(FrameworkElement.Width)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="21"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="21"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBoton2" Storyboard.TargetProperty="(FrameworkElement.Height)">
+                <EasingDoubleKeyFrame KeyTime="00:00:01.8000000" Value="20"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="20"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(FrameworkElement.Width)" EnableDependentAnimation="True">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="150"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:05" Value="200"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="310"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(FrameworkElement.Height)" EnableDependentAnimation="True">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="75"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:05" Value="75"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="75"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pokBoton" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:01.8000000" Value="Black"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.9000000" Value="White"/>
+                <EasingColorKeyFrame KeyTime="00:00:02.5000000" Value="#FFF9F5F5"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pokBoton2" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:01.8000000" Value="Black"/>
+                <EasingColorKeyFrame KeyTime="00:00:01.9000000" Value="White"/>
+                <EasingColorKeyFrame KeyTime="00:00:02.5000000" Value="#FFF9F5F5"/>
+            </ColorAnimationUsingKeyFrames>
+            
+            <DoubleAnimation Duration="00:00:06" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" To="1"/>
+            <DoubleAnimation Duration="00:00:06" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" To="0"/>
+        </Storyboard>
     </Page.Resources>
 
 
@@ -779,5 +871,18 @@
                 <CompositeTransform Rotation="34.743"/>
             </Path.RenderTransform>
         </Path>
+        <Grid x:Name="Logro" Grid.Column="1" Height="Auto" Margin="422,24,400,24" Grid.Row="3" Width="Auto">
+            <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="75" Margin="51,17,0,0" Stroke="Black" VerticalAlignment="Top" Width="310" Fill="#FFFD2B51" StrokeThickness="3" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+            <Ellipse x:Name="pokBase" HorizontalAlignment="Left" Height="102" Stroke="Black" VerticalAlignment="Center" Width="100" Fill="#FF4852B6" StrokeThickness="4" Visibility="Collapsed"/>
+            <Path x:Name="path10" Data="M0,0 L35,0" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="0,50,0,0" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="40" Stretch="Fill" Visibility="Collapsed"/>
+            <Path x:Name="path11" Data="M0,0 L35,0" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="7" Margin="61,50,0,0" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="40" Stretch="Fill" Visibility="Collapsed"/>
+            <Ellipse x:Name="pokBoton" HorizontalAlignment="Left" Height="0" Margin="34,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="0" FocusVisualPrimaryBrush="{x:Null}" StrokeThickness="0" Fill="Black"/>
+            <Ellipse x:Name="pokBoton2" HorizontalAlignment="Left" Height="0" Margin="40,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="0" FocusVisualPrimaryBrush="White" StrokeThickness="0" Fill="Black"/>
+        </Grid>
     </Grid>
 </Page>

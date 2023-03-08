@@ -300,6 +300,17 @@ namespace PokeApp
             deshabilitarBotones();
             lanzarAnimacion("AnimacionPgMana", 2);
             lanzarAnimacion("AnimacionMana", 3);
+
+            visibleLogro();
+            lanzarAnimacion("AnimacionLogro", 1);
+        }
+
+        private void visibleLogro()
+        {
+            this.rectangle.Visibility = Visibility.Visible;
+            this.pokBase.Visibility = Visibility.Visible;
+            this.path10.Visibility = Visibility.Visible;
+            this.path11.Visibility = Visibility.Visible;
         }
 
         /// <summary>

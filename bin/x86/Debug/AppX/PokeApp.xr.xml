@@ -53,16 +53,21 @@
       <RootMethod Name="GetTargetProperty" />
       <RootMethod Name="SetTargetProperty" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
+      <RootProperty Name="EnableDependentAnimation" />
+      <RootProperty Name="KeyFrames" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+      <RootProperty Name="From" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingColorKeyFrame">
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
-      <RootProperty Name="KeyFrames" />
-      <RootProperty Name="EnableDependentAnimation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingDoubleKeyFrame">
       <RootProperty Name="KeyTime" />
@@ -82,6 +87,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
@@ -106,11 +112,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.FadeInThemeAnimation">
       <RootProperty Name="TargetName" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
-      <RootProperty Name="Duration" />
-      <RootProperty Name="To" />
-      <RootProperty Name="From" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.RepositionThemeAnimation">
       <RootProperty Name="FromHorizontalOffset" />
@@ -168,10 +169,13 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="StrokeThickness" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="RenderTransform" />
+      <RootProperty Name="UseLayoutRounding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
       <RootProperty Name="X" />
@@ -183,8 +187,13 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransform" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="Opacity" />
     </RootType>
@@ -277,6 +286,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Child" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="Rotation" />
       <RootProperty Name="SkewY" />
@@ -309,7 +319,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.RotateTransform">
       <RootProperty Name="Angle" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="PokeApp.MainPage" />
   </Roots.RootTypes>
