@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
@@ -25,9 +26,21 @@ namespace PokeApp
         }
 
         /// <summary>
+        /// Hace visible los path de salud
+        /// </summary>
+        public void mostrarSalud()
+        {
+            this.salud1.Visibility = Visibility.Visible;
+            this.salud2.Visibility = Visibility.Visible;
+            this.salud3.Visibility = Visibility.Visible;
+            this.salud4.Visibility = Visibility.Visible;
+            this.salud5.Visibility = Visibility.Visible;
+        }
+
+        /// <summary>
         /// Oculta los path de salud
         /// </summary>
-        private void ocultarSalud()
+        public void ocultarSalud()
         {
             this.salud1.Visibility = Visibility.Collapsed;
             this.salud2.Visibility = Visibility.Collapsed;
@@ -39,7 +52,7 @@ namespace PokeApp
         /// <summary>
         /// Habilitar botones
         /// </summary>
-        private void habilitarBotones()
+        public void habilitarBotones()
         {
             btnSalud.IsEnabled = true;
             btnEnergia.IsEnabled = true;
@@ -47,20 +60,30 @@ namespace PokeApp
         }
 
         /// <summary>
-        /// Cuando la animación de salud es completada
+        /// Habilitar botones
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void AnimacionSalud_Completed(object sender, object e)
+        public void deshabilitarBotones()
         {
-            ocultarSalud();
-            habilitarBotones();
+            btnSalud.IsEnabled = false;
+            btnEnergia.IsEnabled = false;
+            btnMana.IsEnabled = false;
+        }
+
+        /// <summary>
+        /// Mostrar estrellas
+        /// </summary>
+        public void mostrarEstrellas()
+        {
+            this.estrella1.Visibility = Visibility.Visible;
+            this.estrella2.Visibility = Visibility.Visible;
+            this.estrella3.Visibility = Visibility.Visible;
+            this.estrella4.Visibility = Visibility.Visible;
         }
 
         /// <summary>
         /// Ocultar estrellas
         /// </summary>
-        private void ocultarEstrellas()
+        public void ocultarEstrellas()
         {
             this.estrella1.Visibility = Visibility.Collapsed;
             this.estrella2.Visibility = Visibility.Collapsed;
@@ -69,32 +92,22 @@ namespace PokeApp
         }
 
         /// <summary>
-        /// Cuando se completa la 
-        /// animación de estrellas
+        /// Hace visible el logro
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void AnimacionEstrellas_Completed(object sender, object e)
+        public void visibleLogro()
         {
-            ocultarEstrellas();
-            habilitarBotones();
-        }
-
-        /// <summary>
-        /// Cuando se completa la 
-        /// animación del maná
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void AnimacionMana_Completed(object sender, object e)
-        {
-            habilitarBotones();
+            this.rectangle.Visibility = Visibility.Visible;
+            this.pokBase.Visibility = Visibility.Visible;
+            this.path10.Visibility = Visibility.Visible;
+            this.path11.Visibility = Visibility.Visible;
+            this.pokBoton.Visibility = Visibility.Visible;
+            this.pokBoton2.Visibility = Visibility.Visible;
         }
 
         /// <summary>
         /// Oculta los elementos del logro
         /// </summary>
-        private void OcultarLogro()
+        public void OcultarLogro()
         {
             this.rectangle.Visibility = Visibility.Collapsed;
             this.pokBase.Visibility = Visibility.Collapsed;
@@ -105,32 +118,11 @@ namespace PokeApp
             this.txtLogro.Visibility = Visibility.Collapsed;
         }
 
-        /// <summary>
-        /// Cuando se completa la animación del logro
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void AnimacionLogro_Completed(object sender, object e)
-        {
-            OcultarLogro();
-        }
 
-        private void btnSalud_Click(object sender, RoutedEventArgs e)
-        {
+        //----------------------------------------
+        //              ProgressBar
+        //----------------------------------------
 
-        }
-
-        private void btnEnergia_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnMana_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        
         /// <summary>
         /// Getter/ setter atributo pgSalud
         /// </summary>
@@ -158,6 +150,144 @@ namespace PokeApp
             set { this.pgMana.Value = value; }
         }
 
+
+        //----------------------------------------
+        //              storyBoard
+        //----------------------------------------
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionFuego
+        /// </summary>
+        public Storyboard animFuegos
+        {
+            get { return this.AnimacionFuegos; }
+            set { this.AnimacionFuegos = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionNivel
+        /// </summary>
+        public Storyboard animNivel
+        {
+            get { return this.AnimacionNivel; }
+            set { this.AnimacionNivel = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionLogro
+        /// </summary>
+        public Storyboard animLogro
+        {
+            get { return this.AnimacionLogro; }
+            set { this.AnimacionLogro = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionSalud
+        /// </summary>
+        public Storyboard animSalud
+        {
+            get { return this.AnimacionSalud; }
+            set { this.AnimacionSalud = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionEstrellas
+        /// </summary>
+        public Storyboard animEstrellas
+        {
+            get { return this.AnimacionEstrellitas; }
+            set { this.AnimacionEstrellitas = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionMana
+        /// </summary>
+        public Storyboard animMana
+        {
+            get { return this.AnimacionMana; }
+            set { this.animMana = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionPgVida
+        /// </summary>
+        public Storyboard animPgVida
+        {
+            get { return this.AnimacionPgVida; }
+            set { this.AnimacionPgVida = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionPgEnergia
+        /// </summary>
+        public Storyboard animPgEnergia
+        {
+            get { return this.AnimacionPgEnergia; }
+            set { this.AnimacionPgEnergia = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Storyboard AnimacionPgMana
+        /// </summary>
+        public Storyboard animPgMana
+        {
+            get { return this.AnimacionPgMana; }
+            set { this.AnimacionPgMana = value; }
+        }
+
+        //----------------------------------------
+        //              BUTTONS
+        //----------------------------------------
+
+        /// <summary>
+        /// Getter/Setter Button Salud
+        /// </summary>
+        public Button buttonSalud
+        {
+            get { return this.btnSalud; }
+            set { this.btnSalud = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Button Energía
+        /// </summary>
+        public Button buttonEnergia
+        {
+            get { return this.btnEnergia; }
+            set { this.btnEnergia = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter Button Mana
+        /// </summary>
+        public Button buttonMana
+        {
+            get { return this.btnMana; }
+            set { this.btnMana = value; }
+        }
+
+        //----------------------------------------
+        //              TextBox
+        //----------------------------------------
+
+        /// <summary>
+        /// Getter/Setter TextBox Nivel
+        /// </summary>
+        public TextBox txNivel
+        {
+            get { return this.txtNivel; }
+            set { this.txtNivel = value; }
+        }
+
+        /// <summary>
+        /// Getter/Setter TextBox logro
+        /// </summary>
+        public TextBox txLogro
+        {
+            get { return this.txtLogro; }
+            set { this.txtLogro = value; }
+        }
     }
 
     

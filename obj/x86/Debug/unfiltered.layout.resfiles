@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\background.jpg
 Assets\blanco.jpg
 Assets\energy.png
@@ -20,3 +19,4 @@ MainPage.xbf
 PokeApp.xr.xml
 ucVisorCharmander.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

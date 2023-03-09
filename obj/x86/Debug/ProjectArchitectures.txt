@@ -1,1 +1,1 @@
-C:\Repositorios\ipo2-pokemon\PokeApp.csproj;x86
+C:\ipo2-pokemon-mainFinal\PokeApp.csproj;x86

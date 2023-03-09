@@ -234,7 +234,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="111"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="AnimacionSalud" Completed="AnimacionSalud_Completed" >
+        <Storyboard x:Name="AnimacionSalud">
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="salud1" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
                 <EasingColorKeyFrame KeyTime="00:00:00" Value="#FF4F9E4B"/>
                 <EasingColorKeyFrame KeyTime="00:00:00.3000000" Value="#FE2CC924"/>
@@ -318,7 +318,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="3"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="AnimacionEstrellitas" Completed="AnimacionEstrellas_Completed">
+        <Storyboard x:Name="AnimacionEstrellitas">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="estrella1" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="34.743"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="-803.578"/>
@@ -346,7 +346,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="20.18"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="AnimacionMana" Completed="AnimacionMana_Completed">
+        <Storyboard x:Name="AnimacionMana">
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
                 <EasingColorKeyFrame KeyTime="00:00:00" Value="#FFF8A457"/>
                 <EasingColorKeyFrame KeyTime="00:00:00.4000000" Value="#FF57C5F8"/>
@@ -397,7 +397,7 @@
                 <EasingColorKeyFrame KeyTime="00:00:00.8000000" Value="Black"/>
             </ColorAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Name="AnimacionLogro" Completed="AnimacionLogro_Completed">
+        <Storyboard x:Name="AnimacionLogro">
             <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="pokBase" Storyboard.TargetProperty="(FrameworkElement.Width)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5330000" Value="40"/>
@@ -519,19 +519,19 @@
 
         <Image x:Name="imgSalud" Source="/Assets/health.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="63"/>
         <ProgressBar x:Name="pgSalud" Style="{StaticResource ProgressBarStyle1}" Minimum="0" Maximum="100" Background="#4FE71B" BorderBrush="Black" Foreground="#FF125F0B" Height="25" Margin="23,0,27,0" RenderTransformOrigin="0.5,0.36" Grid.Column="1" />
-        <Button x:Name="btnSalud" Grid.Column="2" Background="{x:Null}" Margin="0,10,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Click="btnSalud_Click" VerticalAlignment="Top" HorizontalAlignment="Center">
+        <Button x:Name="btnSalud" Grid.Column="2" Background="{x:Null}" Margin="0,10,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" VerticalAlignment="Top" HorizontalAlignment="Center">
             <Image Source="Assets\pocSalud.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
         <Image x:Name="imgEnergy" Source="/Assets/energy.png" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Width="63" Height="64" />
         <ProgressBar x:Name="pgEnergia" Style="{StaticResource ProgressBarStyle1}" Minimum="0" Maximum="100" Background="#FFF9AA56" BorderBrush="Black" Foreground="#FFF28109" Height="25" Margin="24,0,26,0" RenderTransformOrigin="0.5,0.36" Grid.Row="1" Grid.Column="1" />
-        <Button x:Name="btnEnergia" Grid.Column="2" Background="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1" Click="btnEnergia_Click" HorizontalAlignment="Center">
+        <Button x:Name="btnEnergia" Grid.Column="2" Background="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="1"  HorizontalAlignment="Center">
             <Image Source="Assets\pocEnergia.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
         <Image x:Name="imgMana" Source="/Assets/mana.png" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Width="63" Height="64" Margin="0,10,0,0" />
         <ProgressBar x:Name="pgMana" Style="{StaticResource ProgressBarStyle1}" Minimum="0" Maximum="100" Background="#FF65D0F1" BorderBrush="Black" Foreground="#FF0B98C3" Height="25" Margin="23,0,27,0" RenderTransformOrigin="0.5,0.36" Grid.Row="2" Grid.Column="1" />
-        <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="0,7,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="2" Click="btnMana_Click" VerticalAlignment="Top" HorizontalAlignment="Center">
+        <Button x:Name="btnMana" Grid.Column="2" Background="{x:Null}" Margin="0,7,0,0" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="62" Width="59" Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Center">
             <Image Source="Assets\pocmana.png" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" HorizontalAlignment="Left" Width="46" Height="46" VerticalAlignment="Top"/>
         </Button>
 
