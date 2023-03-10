@@ -97,6 +97,9 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\DialogFinal.xbf">
+      <PackagePath>DialogFinal.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

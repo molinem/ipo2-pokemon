@@ -61,7 +61,6 @@ C:\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\PokeApp.exe
 C:\Repositorios\ipo2-pokemon\bin\x64\Debug\PokeApp.build.appxrecipe
 C:\Repositorios\ipo2-pokemon\bin\x64\Debug\System.Runtime.dll
 C:\Repositorios\ipo2-pokemon\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Repositorios\ipo2-pokemon\obj\x64\Debug\PokeApp.csproj.AssemblyReference.cache
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\App.g.i.cs
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\App.g.cs
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\MainPage.g.i.cs
@@ -98,3 +97,9 @@ C:\Repositorios\ipo2-pokemon\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\ProjectArchitectures.txt
 C:\Repositorios\ipo2-pokemon\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+C:\Repositorios\ipo2-pokemon\bin\x64\Debug\DialogFinal.xbf
+C:\Repositorios\ipo2-pokemon\obj\x64\Debug\DialogFinal.g.i.cs
+C:\Repositorios\ipo2-pokemon\obj\x64\Debug\DialogFinal.g.cs
+C:\Repositorios\ipo2-pokemon\obj\x64\Debug\DialogFinal.xaml
+C:\Repositorios\ipo2-pokemon\obj\x64\Debug\DialogFinal.xbf
+C:\Repositorios\ipo2-pokemon\obj\x64\Debug\PokeApp.csproj.AssemblyReference.cache

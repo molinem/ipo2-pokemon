@@ -45,6 +45,9 @@ namespace PokeApp
         //Control para saber si se alcanza cierto punto
         bool realizadoF1, realizadoF2, realizadoF3, realizadoF4, realizadoF5, realizadoF6, realizadoF7 = false;
 
+        //Dialog final
+        DialogFinal dialog;
+
         /// <summary>
         /// Método principal
         /// </summary>
@@ -77,6 +80,7 @@ namespace PokeApp
             ucVisorCharmander.animMana.Completed += AnimMana_Completed;
             ucVisorCharmander.animLogro.Completed += AnimLogro_Completed;
 
+             dialog = new DialogFinal();
         }
 
         /// <summary>
@@ -147,14 +151,33 @@ namespace PokeApp
                 tim.Stop();
 
                 //Evento al morir
+                lanzarLogro("Has perdido :(");
 
-
+                dialog.txTexto.Text = "Has conseguido: "+ puntos_conseguidos + " puntos 😁";
+                await Task.Delay(9000);
+                await dialog.ShowAsync();
             }
             else if (puntos_conseguidos >= 850) //El jugador/a gana
             {
                 //MessageBox
+                tim.Stop();
+                dialog.txTexto.Text = "Has conseguido: " + puntos_conseguidos + " puntos 😁";
+                await Task.Delay(9000);
+                await dialog.ShowAsync();
             }
 
+        }
+
+        /// <summary>
+        /// Para lanzar el logro
+        /// con un texto personalizado
+        /// </summary>
+        /// <param name="texto"></param>
+        private void lanzarLogro(string texto)
+        {
+            ucVisorCharmander.txLogro.Text = texto;
+            ucVisorCharmander.visibleLogro();
+            lanzarAnimacion(ucVisorCharmander.animLogro, 1);
         }
 
         /// <summary>
@@ -176,13 +199,13 @@ namespace PokeApp
                 puntos_conseguidos += 15;
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "1";
+                lanzarLogro("+ 15 puntos 👾");
                 realizadoF1 = true;
             }
 
             if (puntos_conseguidos >= 90 && puntos_conseguidos < 200 && !realizadoF2)
             {
                 puntos_conseguidos += 25;
-                //Lanzar animación Nivel Visual
                 realizadoF2 = true;
             }
 
@@ -191,6 +214,7 @@ namespace PokeApp
                 puntos_conseguidos += 30;
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "2";
+                lanzarLogro("+ 30 puntos 👾");
                 realizadoF3 = true;
             }
 
@@ -198,7 +222,6 @@ namespace PokeApp
             {
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "3";
-                //Lanzar animación Nivel Visual
                 realizadoF4 = true;
             }
 
@@ -207,7 +230,7 @@ namespace PokeApp
                 puntos_conseguidos += 40;
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "4";
-                //Lanzar animación Nivel Visual
+                lanzarLogro("+ 40 puntos 👾");
                 realizadoF5 = true;
             }
 
@@ -216,7 +239,7 @@ namespace PokeApp
                 puntos_conseguidos += 40;
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "5";
-                //Lanzar animación Nivel Visual
+                lanzarLogro("+ 40 puntos 👾");
                 realizadoF6 = true;
             }
 
@@ -225,7 +248,7 @@ namespace PokeApp
                 puntos_conseguidos += 50;
                 lanzarAnimacion(ucVisorCharmander.animNivel, 3);
                 ucVisorCharmander.txNivel.Text = "6";
-                //Lanzar animación Nivel Visual
+                lanzarLogro("+ 50 puntos 👾");
                 realizadoF7 = true;
             }
         }

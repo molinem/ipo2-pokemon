@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-09T13:06:15.462</Modified>
+      <Modified>2023-03-10T13:04:14.993</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\PokeApp.exe">
       <PackagePath>entrypoint\PokeApp.exe</PackagePath>
-      <Modified>2023-03-09T13:06:14.746</Modified>
+      <Modified>2023-03-10T13:04:14.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -122,19 +122,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\PokeApp.xr.xml">
       <PackagePath>PokeApp.xr.xml</PackagePath>
-      <Modified>2023-03-09T13:06:14.620</Modified>
+      <Modified>2023-03-10T12:29:07.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-09T13:06:14.670</Modified>
+      <Modified>2023-03-10T13:04:14.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\DialogFinal.xbf">
+      <PackagePath>DialogFinal.xbf</PackagePath>
+      <Modified>2023-03-10T13:04:14.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-09T13:06:14.670</Modified>
+      <Modified>2023-03-10T13:04:14.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\ucVisorCharmander.xbf">
       <PackagePath>ucVisorCharmander.xbf</PackagePath>
-      <Modified>2023-03-09T13:06:14.670</Modified>
+      <Modified>2023-03-10T13:04:14.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -142,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-09T12:41:08.396</Modified>
+      <Modified>2023-03-10T11:32:32.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokemon\bin\x64\Debug\Core\PokeApp.exe">
       <PackagePath>PokeApp.exe</PackagePath>
-      <Modified>2023-03-09T13:06:15.455</Modified>
+      <Modified>2023-03-10T13:04:14.990</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
