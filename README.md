@@ -7,20 +7,24 @@ El `diseño principal` es un <b>Page WPF</b> que contiene un <b>grid</b> que a s
 
 ***
 # 📸 TimeLapse diseño del pokemon en Windows blend
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=utnEfus11KE">
+    <img src="https://img.youtube.com/vi/utnEfus11KE/0.jpg" alt="Alt text">
+  </a>
+</p>
 
 ***
 # ⚡️ Animaciones
-🔸 `Animación Salud` --> Cruzes de color verde giran y cambian de color.
+🔸 `Animación Salud` --> Cruzes de color verde giran y cambian de color. </br>
 🔸 `Animación ProgressBar Salud` --> Alteración en los colores.
 
-🔸 `Animación Energía` --> Charmander cierra y abre los ojos, estrellas salen girando alrededor del mismo.
+🔸 `Animación Energía` --> Charmander cierra y abre los ojos, estrellas salen girando alrededor del mismo. </br>
 🔸 `Animación ProgressBar Energía` --> Alteración en los colores.
 
-🔸 `Animación Maná` --> Charmander cambia su color por completo en todos sus path.
+🔸 `Animación Maná` --> Charmander cambia su color por completo en todos sus path. </br>
 
-🔸 `Animación Nivel` --> La palabra nivel se hace más grande - pequeña al subir de nivel.
-🔸 `Animación MasterBall` --> Sale una masterball mostrando un mensaje.
+🔸 `Animación Nivel` --> La palabra nivel se hace más grande - pequeña al subir de nivel. </br>
+🔸 `Animación MasterBall` --> Sale una masterball mostrando un mensaje. </br>
 🔸 `Animación Fuego Cola` ---> Animación permanente donde la cola está ardiendo constantemente.
 
 # 🧩 Autor
