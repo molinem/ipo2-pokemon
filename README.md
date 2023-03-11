@@ -16,17 +16,19 @@ El `diseño principal` es un <b>Page WPF</b> que contiene un <b>grid</b> que a s
 ***
 # ⚡️ Animaciones
 🔸 `Animación Salud` --> Cruzes de color verde giran y cambian de color. </br>
-🔸 `Animación ProgressBar Salud` --> Alteración en los colores.
+🔸 `Animación ProgressBar Salud` --> Alteración en los colores, cambia de negro a rojo.
 
 🔸 `Animación Energía` --> Charmander cierra y abre los ojos, estrellas salen girando alrededor del mismo. </br>
-🔸 `Animación ProgressBar Energía` --> Alteración en los colores.
+🔸 `Animación ProgressBar Energía` --> Alteración en los colores, cambia de negro a blanco.
 
 🔸 `Animación Maná` --> Charmander cambia su color por completo en todos sus path. </br>
+🔸 `Animación ProgressBar Maná` --> Alteración en los colores, cambia de negro a Azul.
 
 🔸 `Animación Nivel` --> La palabra nivel se hace más grande - pequeña al subir de nivel. </br>
 🔸 `Animación MasterBall` --> Sale una masterball mostrando un mensaje. </br>
 🔸 `Animación Fuego Cola` ---> Animación permanente donde la cola está ardiendo constantemente.
 
+***
 # 🧩 Autor
 
 🔹 Luis Molina Muñoz-Torrero.&nbsp;&nbsp; <a title="Luis Molina Muñoz-Torrero" href="https://www.linkedin.com/in/luis-molina-mu%C3%B1oz-torrero-45829014a">
